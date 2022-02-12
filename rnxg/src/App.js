@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Home/Navbar';
+import Topbox from './Components/Home/topbox';
 
 
 function App() {
   return (
 <>
-<Navbar />
-
+<Topbox/>
 </>
   );
 }
