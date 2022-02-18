@@ -10,6 +10,8 @@ export default function Footer() {
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row cont">
+                <div className="1div">
+                
                 <div className="col-6 col-lg-3 sect">
                   <h2>RNXG</h2>
                   <ul>
@@ -47,7 +49,8 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-
+</div>
+                  <div className="2div">
                 <div className="col-6 col-lg-3 sect">
                   <h2>Events</h2>
                   <ul>
@@ -112,7 +115,7 @@ width:" 140px"
 
 </div>
 
-                  </div>
+                  </div></div>
                 </div>
               </div>
               <hr />
