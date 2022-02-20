@@ -1,12 +1,64 @@
-
-
-.Navbar-wrapper{
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    height: 10vh;
-    position: absolute;
-    background-color: aqua;
-    font-size: 40px;
-    font-weight: 900;
-    color: azure;
+.nav-main{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:10vh;
+  
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  
+  align-items: center;
+  z-index: 10;
 }
+.navbar_11{
+  display: flex;
+    width: 100%;
+    align-items: center;
+}
+.logo img {
+  width: 349px;
+  height: 110px;
+  position: relative;
+  left: -1px;
+  
+  /* border-radius: 100%; */
+  top: -5px;
+}
+
+
+.nav-main ul{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  top: -5px;
+}
+.nav-main ul li{
+list-style: none;
+line-height: 0px;
+padding: 10px 55px 0 0;
+}
+
+.nav-main ul li a{
+  display: block;
+  height: 200%;
+  padding: 0 10px;
+  
+  text-decoration: none;
+  color: #fff;
+  font-family: arial;
+  font-size: 16px;
+}
+  
+#hit{
+  border: none;
+    background: transparent;
+}
+  @media only screen and (max-width: 700px) {
+    .nav-main ul{
+      display: none;
+    }
+  }
+  

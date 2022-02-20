@@ -28,7 +28,7 @@
   }
   
   #dmdm .dmdm {
-    position: absolute;
+    /* position: absolute; */
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -46,7 +46,7 @@
   }
   
   .dmdm .dmdm-404 {
-    position: absolute;
+    /* position: absolute; */
     height: 100px;
     top: 0;
     left: 50%;
@@ -62,7 +62,7 @@
     font-weight: 900;
     font-size: 276px;
     margin: 0px;
-    position: absolute;
+    /* position: absolute; */
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);

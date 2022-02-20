@@ -1,6 +1,6 @@
 .topbox{
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     background-color: #fff;
     justify-content: flex-start;
@@ -47,9 +47,7 @@ position: absolute;
     bottom: 0;
     z-index: 1;
 }
-.bottom{
-    height: 100vh;
-}
+
 .topbox-content{
     position: relative;
     top: -20%;

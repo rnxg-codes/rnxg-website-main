@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Home/Navbar';
-import Footer from './Components/Home/Footer';
+
+import HomeBody from './Components/Home/Home-Body';
+
+
 
 
 function App() {
   return (
 <>
-
-<Footer />
+<HomeBody/>
 </>
   );
 }
