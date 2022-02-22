@@ -6,6 +6,7 @@
     background-color: white;
     height: 40px;
     margin: 0;
+    width: 100%;
 }
 .sticky {
     position: sticky;
@@ -22,7 +23,6 @@
     list-style: none;
     justify-content: space-evenly;
     line-height: 40px;
-    box-shadow: 0 2.75px 2.21px rgb(0 0 0 / 7%), 0 6.65px 5.32px rgb(0 0 0 / 4%), 0 12.5px 10px rgb(0 0 0 / 3%), 0 22px 18px rgb(0 0 0 / 3%), 0 42px 33.4px rgb(0 0 0 / 2%), 0 100px 80px rgb(0 0 0 / 2%), 0 1px 0 0 rgb(4 13 33 / 10%);
 }
 .main-box-nav-ele:hover, 
 .main-box-nav-ele:active{
