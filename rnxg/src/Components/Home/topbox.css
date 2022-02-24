@@ -6,6 +6,7 @@
     justify-content: flex-start;
     flex-direction: column;
     flex-direction: column;
+
 }
 .Topbox-wrapper{
     width: 100%;
@@ -92,8 +93,11 @@ height: 90%;}
             border-right:0.2rem solid transparent;
         }
     }
-
-    .mainbutton button{
+.mainbutton a{
+    color: #fff;
+}
+    .mainbutton button {
+        
         width: 200px;
         height: 50px;
         border: none;
@@ -143,4 +147,41 @@ height: 90%;}
         background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
         z-index: -2;
         filter: blur(40px);
+      }
+
+      @media screen and (max-width: 480px) {
+        .topbox-content p{
+            font-size: 40px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            width: 100%;
+            }
+            .t-left{
+                width: 100%;
+            }
+            .topbox-content h4{
+                font-size: 20px;
+                color: #8193b2;
+                font-weight: 400;
+                
+                }
+                .t-right{
+                    width: 0%;
+                }
+                .t-main-title{
+                    height: 5%;
+                }
+                .mainbutton button {
+                    top: -90px;
+                }
+                .background-glow img {
+                    position: relative;
+                    top: 50%;
+                    left: 50%;
+                    width: 100%;
+                    transform: translate(-50%, -50%);
+                    z-index: 1;
+
+                }
+
       }

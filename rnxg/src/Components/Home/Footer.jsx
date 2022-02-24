@@ -10,11 +10,11 @@ export default function Footer() {
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row cont">
-                <div className="1div">
+                <div className="div1" >
                 
                 <div className="col-6 col-lg-3 sect">
                   <h2>RNXG</h2>
-                  <ul>
+                  <ul style={{listStyle:"none",fontSize:"12px",margin: "0 0 0 -38px"}}>
                     <li>
                       <a href="#">About</a>
                     </li>
@@ -33,7 +33,7 @@ export default function Footer() {
                 <div className="col-6 col-lg-3 sect">
                      
                   <h2>Achievements</h2>
-                  <ul>
+                  <ul style={{listStyle:"none",fontSize:"12px",margin: "0 0 0 -38px"}}>
                     <li>
                       <a href="#">Projects</a>
                     
@@ -50,10 +50,10 @@ export default function Footer() {
                   </ul>
                 </div>
 </div>
-                  <div className="2div">
+                  <div className="div2" >
                 <div className="col-6 col-lg-3 sect">
                   <h2>Events</h2>
-                  <ul>
+                  <ul style={{listStyle:"none", fontSize:"12px",margin: "0 0 0 -38px"}}>
                     <li>
                       <a href="#">Rmmegadon</a>
                     </li>
@@ -70,10 +70,10 @@ export default function Footer() {
                 </div>
 
                 <div id="new" style={{   
-                  width: "155px",
+                  width: "135px",
                   display: "flex",
                   flexDirection: "column",
-                  alignItems:" center"                   
+                                    
 }} className="col-6 col-lg-3 sect">
                   <h2>Follow Us</h2>
                   <div className="row" style={{    
@@ -81,7 +81,9 @@ export default function Footer() {
 
 display: "flex",
 justifyContent: "space-between",
-width:" 140px"
+width:" 140px",
+position:"relative",
+left:"-20px"
                   }}>
                     <div className="col-3 mx-auto">
                       <i class="fab fa-facebook-f fontawesome-style"></i>
@@ -118,10 +120,10 @@ width:" 140px"
                   </div></div>
                 </div>
               </div>
-              <hr />
-              <div className="mt-5">
+  
+              <div className="mt-5" style={{height:"5vh"}}>
                 <p className="main-hero-para text-center w-100">
-                  Copyright @ 2022 RNXG
+                © 2022 RNXG, Inc
                 </p>
               </div>
             </div>

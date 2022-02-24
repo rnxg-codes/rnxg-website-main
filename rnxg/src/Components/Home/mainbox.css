@@ -12,17 +12,18 @@
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 5;
+    z-index: 5;font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace
 }
 .main-box-nav li a{
     color: black;
     text-decoration: none;
 }
-.nav-contents{
+.nav-contentss{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     line-height: 40px;
+    padding: 0 0 0 0;
 }
 .main-box-nav-ele:hover, 
 .main-box-nav-ele:active{
@@ -36,7 +37,9 @@
     flex-direction: column;
     background-color: #040D21;
     color: white;
-    border-radius: 25px;
+    /* border-radius: 25px; */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     padding: 10px;
     align-items: center;
     z-index: 1;

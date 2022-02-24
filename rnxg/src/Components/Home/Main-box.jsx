@@ -8,7 +8,7 @@ export default function Mainbox() {
   return <>
       <div className="outer-main-box">
         <div className="main-box-nav sticky" data-aos="zoom-in">
-          <ul className="nav-contents">
+          <ul className="nav-contentss">
             <li className="main-box-nav-ele" id="nav-ele-1"><a href="#body-ele-1">Element 1</a></li>
             <li className="main-box-nav-ele" id="nav-ele-2"><a href="#body-ele-2">Element 2</a></li>
             <li className="main-box-nav-ele" id="nav-ele-3"><a href="#body-ele-3">Element 3</a></li>
