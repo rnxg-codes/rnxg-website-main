@@ -3,6 +3,10 @@
     display: flex;
     justify-content:space-evenly;
    background-color: #000;
+   position: absolute;
+    z-index: 1 ;
+   bottom: -648px;
+   width: 100%;
 }
 
 .mt-5{
@@ -12,6 +16,7 @@
     box-sizing: content-box;
     font-weight: 500;
     font-style:normal;
+    position: absolute;
 }
 
 .sect, .sect li a{
