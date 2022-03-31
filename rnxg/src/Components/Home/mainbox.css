@@ -44,7 +44,7 @@
     /* border-radius: 25px; */
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    padding: 10px;
+    /* padding: 10px; */
     align-items: center;
     z-index: 1;
 }
@@ -67,16 +67,18 @@
 }
 .main-image img {
 border-radius: 10px;
+width: 75%;
 }
 .main-text h3 {
     font-size: 90px;
-    width: 400px;
+    width: 50%;
+
 }
 .main-text  {
     justify-content: center;
     width: 50%;
     align-items: center;
-    margin: 0 0 0 60px;
+    /* margin: 0 0 0 60px; */
 }
 .middle-section-mainbox{
     display: flex;
@@ -89,11 +91,24 @@ border-radius: 10px;
 }
 .main1-text h3 {
     font-size: 90px;
-    width: 500px;
+    width: 50%;
 }
+@media screen and (max-width: 480px) {
+
+    .main-text h3 {
+        font-size: 40px;
+        width: 90%;
+    
+    }
+    .main1-text h3 {
+        font-size: 40px;
+        width: 90%;
+    }
+
+  }
 .main1-text  {
     justify-content: center;
     width: 50%;
     align-items: center;
-    margin: 0 0 0 60px;
+    /* margin: 0 0 0 60px; */
 }

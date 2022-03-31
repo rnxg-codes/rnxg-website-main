@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import image from '../images/11.jpg'
 import image1 from '../images/33.png'
+import Profiles from './profiles';
 export default function Mainbox() {
 
   return <>
@@ -20,21 +21,23 @@ export default function Mainbox() {
         <div className="main-box-body">
           <div className="top-section-mainbox">
           <div className="main-image" data-aos="">
-           <img width="640"  src={image} alt="" />
+           <img   src={image} alt="" />
          </div> 
-         <div className="main-text" data-aos="slide-left">
+         <div className="main-text" data-aos="fade-up">
            <h3>Bring on the Rnxg</h3>
          </div>
           </div>
           <div className="middle-section-mainbox">
-          <div className="main1-text" data-aos="slide-right">
+          <div className="main1-text" data-aos="fade-up">
            <h3>Its a drone</h3>
          </div>
           <div className="main1-image" data-aos="">
-           <img width="640"  src={image1} alt="" />
+           <img width="75%"  src={image1} alt="" />
          </div>
-          </div>
+        
+          </div> <Profiles />
         </div>
+        
       </div>
   </>;
 }

@@ -1,0 +1,52 @@
+
+
+.list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; */
+}
+
+
+
+
+  .cards .card .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cards .card .content .img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #4e3c72;
+    margin-bottom: 14px;
+  }
+  .card .content .img img{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .card .content .name{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .card .content .job{
+    font-size: 20px;
+    color: #FF676D;
+  }
+  .card .content .media-icons{
+    margin-top: 10px;
+    display: flex;
+  
+  }
+
