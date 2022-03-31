@@ -1,6 +1,10 @@
 
 .outer-main-box{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main-box-nav{
     background-color: white;
@@ -10,7 +14,7 @@
 }
 .main-box-body{
     /* height: 100vh; */
-    width: 100%;
+    width: 95%;
 }
 .sticky {
     position: sticky;
@@ -26,8 +30,7 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    line-height: 40px;
-    padding: 0 0 0 0;
+    /* line-height: 40px; */
 }
 .main-box-nav-ele:hover, 
 .main-box-nav-ele:active{
@@ -65,13 +68,16 @@
     align-items: center;
     justify-content: space-between;
 }
+.main-image {
+    width: 50%;
+}
 .main-image img {
 border-radius: 10px;
 width: 75%;
 }
 .main-text h3 {
     font-size: 90px;
-    width: 50%;
+    width: 80%;
 
 }
 .main-text  {
@@ -86,15 +92,22 @@ width: 75%;
     align-items: center;
     justify-content: space-between;
 }
+.main1-image {
+    width: 50%;
+}
 .main1-image img {
 border-radius: 10px;
 }
 .main1-text h3 {
     font-size: 90px;
-    width: 50%;
+    width: 80%;
 }
 @media screen and (max-width: 480px) {
 
+    .nav-contentss{
+       
+ font-size: 13px;
+    }
     .main-text h3 {
         font-size: 40px;
         width: 90%;
