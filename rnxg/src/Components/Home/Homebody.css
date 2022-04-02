@@ -18,7 +18,11 @@ align-items: center;
 }
 .E4{
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    background-color: #141414;
+    height: 85vh;
+    align-items: center;
 }
 @media screen and (max-width: 480px) {
 

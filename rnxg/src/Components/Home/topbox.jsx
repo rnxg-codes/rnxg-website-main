@@ -7,7 +7,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Topbox() {
   return <>
-  <div className="topbox">
+  <div className="topbox" id='top1'>
   <div className='Topbox-wrapper'>
 <div className="topbox-content">
   <div className="t-left">

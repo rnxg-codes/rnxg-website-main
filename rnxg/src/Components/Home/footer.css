@@ -1,236 +1,111 @@
-
-.cont {
-    display: flex;
-    justify-content:space-evenly;
-   background-color: #000;
-   height: 40vh;
+.container2{
+  width: 93%;
+  display: flex;
+  height: 60vh;
+color: #fff;
 }
-
-.mt-5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: content-box;
-    font-weight: 500;
-    font-style:normal;
+.Rnxg{
+  width: 26%;
+  display: flex;
+flex-direction: column;
+align-items: center;
+}.Rnxg span{
+  margin: 10px 0px 0px 45px;
+  line-height: 150px;
 }
+.Rnxg h1{
+margin: 0 170px 0 0;
+background-image: linear-gradient(60deg, #E21143, #FFB03A);
+background-clip: text;
+color: transparent;
+}.Rnxg p{
+width: 70%;
+}
+.club{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}.club li{
+ list-style: none;
+ line-height: 40px;
+}
+.club h1 {
+  font-weight: 400;
+  margin: 0 35px 0 0px;
+}
+.other-links h1 {
+  font-weight: 400;
 
-.sect, .sect li a{
-  color: white;
-  text-decoration: none;
+  margin: 0 35px 0 0px;
+}
+.other-links{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}.other-links li{
+  list-style: none;
+  line-height: 40px;
+  margin: 0 0px 0 0px;
+}.other-links ul{
+  margin: 10px 0px 0 -150px;
+ 
+  
+}.other-links li{
+  list-style: none;
+  line-height: 40px;
   
 }
+.contact-us{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  line-height: 40px;
+}.contact-us h1{
+  font-weight: 400;
 
+  margin: 0 190px 0 0;
+}.contact-us p{
+  margin: 0px 0 0 -225px;
+  background-image: linear-gradient(60deg, #E21143, #FFB03A);
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+.icons{
 
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin: 12px 0 0 -130px;
+}
+.icons button {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25262A;
+}
+.go-top button {
+  width: 40px;
+  position: absolute;
+  height: 40px;
+  background-color: #5D76FF;
+  border: none;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}.go-top {
 
-#dmdm {
-    position: relative;
-    height: 100vh;
-  }
-  
-  #dmdm .dmdm {
-    /* position: absolute; */
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  
-  .dmdm {
-    max-width: 920px;
-    width: 100%;
-    line-height: 1.4;
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  .dmdm .dmdm-404 {
-    /* position: absolute; */
-    height: 100px;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    z-index: -1;
-  }
-  
-  .dmdm .dmdm-404 h1 {
-    font-family: 'Roboto', sans-serif;
-    color: #ececec;
-    font-weight: 900;
-    font-size: 276px;
-    margin: 0px;
-    /* position: absolute; */
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  
-  .dmdm h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 46px;
-    color: white;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin: 0px;
-  }
-  
-  .dmdm p {
-    font-size: 16px;
-    color:white;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-top: 15px;
-  }
-  
-  .dmdm a {
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background: #189cf0;
-    display: inline-block;
-    padding: 16px 38px;
-    border: 2px solid transparent;
-    border-radius: 40px;
-    color: #fff;
-    font-weight: 400;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-  }
-  
-  .dmdm a:hover {
-    background-color: #fff;
-    border-color: #189cf0;
-    color: white;
-  }
-  
-  @media only screen and (max-width: 992px) {
-    .cont {
-      display: flex;
-      justify-content:space-evenly;
-     background-color: #000;
-  }
-  
-  .mt-5{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-sizing: content-box;
-      font-weight: 500;
-      font-style:normal;
-  }  .mt-5 p{
+  height: 40px;
+  top: 98px;
+  width: 40px;
 
-      font-weight:100;
-     
-  }
-  
-  .sect, .sect li a{
-    color: white;
-    text-decoration: none;
-     
-  }
-  
-  
-  
-  #dmdm {
-      position: relative;
-      height: 100vh;
-    }
-    
-    #dmdm .dmdm {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-    
-    .dmdm {
-      max-width: 920px;
-      width: 100%;
-      line-height: 1.4;
-      text-align: center;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-    
-    .dmdm .dmdm-404 {
-      position: absolute;
-      height: 100px;
-      top: 0;
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
-      z-index: -1;
-    }
-    
-    .dmdm .dmdm-404 h1 {
-      font-family: 'Roboto', sans-serif;
-      color: #ececec;
-      font-weight: 900;
-      font-size: 276px;
-      margin: 0px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-    
-    .dmdm h2 {
-      font-family: 'Roboto', sans-serif;
-      font-size: 46px;
-      color: white;
-      font-weight: 900;
-      text-transform: uppercase;
-      margin: 0px;
-    }
-    
-    .dmdm p {
-      font-size: 16px;
-      color:white;
-      font-weight: 400;
-      text-transform: uppercase;
-      margin-top: 15px;
-    }
-    
-    .dmdm a {
-      font-size: 14px;
-      text-decoration: none;
-      text-transform: uppercase;
-      background: #189cf0;
-      display: inline-block;
-      padding: 16px 38px;
-      border: 2px solid transparent;
-      border-radius: 40px;
-      color: #fff;
-      font-weight: 400;
-      -webkit-transition: 0.2s all;
-      transition: 0.2s all;
-    }
-    
-    .dmdm a:hover {
-      background-color: #fff;
-      border-color: #189cf0;
-      color: white;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .div1{
-      width: 45%;
-    }
-  .div2{
-    width: 23%;
-  }
-
-  }
-  
+}

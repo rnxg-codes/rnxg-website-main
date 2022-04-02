@@ -1,0 +1,31 @@
+.cardss{
+    width: 330px;
+    height: 353px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardss p{
+width: 200px;
+}
+.cardss h3{
+width: 200px;
+font-weight: 400;
+color: red;
+}
+.cardss img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 20px 225px 0 0;
+}
+.quote span{
+    font-size: 50px;
+    position: absolute;
+    margin: -19px 0px 0 -40px;
+    color: red;
+}

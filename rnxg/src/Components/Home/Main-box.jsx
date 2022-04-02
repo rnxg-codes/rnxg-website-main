@@ -15,13 +15,14 @@ import image10 from "../images/10.jpg";
 import Profiles from "./profiles";
 import "./main2.css";
 import Slider from "./slider";
+import Cards from "./cards";
 export default function Mainbox() {
   return (
  <>
  <div className="bg">
    <div className="rgmd">
-<h1>TRANSFORMATIVE MOBILITY</h1>
-<p>Spot is an agile mobile robot that navigates terrain with unprecedented mobility, allowing you to automate routine inspection tasks and data capture safely, accurately, and frequently.</p>
+<h1>Why RNXG?!</h1>
+<p>Join niche clubs, interact with experts, explore, network with high-profile and ambitious individuals, get internships, and join India’s largest community all for free! What are you waiting for?</p>
 <span>The results? Safer, more efficient and more predictable operations.</span>
    </div>
    <div className="lfmd">
@@ -46,6 +47,23 @@ export default function Mainbox() {
    <h1>Our Team</h1>
  <Slider/>
  </div>
+ <div className="about">
+   <div className="em1">
+        <h1>Why our members love us</h1>
+   <p>See more on our Wall of love </p>
+   </div>
+
+    <div className="art">
+   <Cards/>
+   <span>
+      <Cards/>
+   <Cards/>  
+   </span>
+
+
+ </div>
+ </div>
+
  </>
 
   );
