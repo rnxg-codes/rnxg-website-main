@@ -4,6 +4,7 @@ import './Homebody.css';
 import Mainbox from './Main-box';
 import Navbar from './Navbar';
 import Topbox from './topbox';
+import { Link, animateScroll as scroll } from "react-scroll";
 export default function HomeBody() {
   return <>
     
@@ -15,7 +16,7 @@ export default function HomeBody() {
 <div className="E2">
   <Topbox/>
 </div>
-<div className="E3">
+<div className="E3"id='down'>
   <Mainbox/>
 </div>
 

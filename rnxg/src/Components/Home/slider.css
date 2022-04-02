@@ -1,0 +1,26 @@
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+  
+    50% { left: 0%; }
+    /* 50% { left: -200%; }
+    70% { left: -200%; } */
+    /* 75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; } */
+    }
+    div#slider { overflow: hidden;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+border-radius: 10px;
+    width: 75%; }
+    div#slider figure img {  float: left; }
+    div#slider figure { 
+      position: relative;
+      /* width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0; */
+      animation: 30s slidy infinite; 
+    }    

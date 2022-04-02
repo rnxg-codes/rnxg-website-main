@@ -1,6 +1,8 @@
 import React from 'react';
 import './navbar.css';
-import logos from './111.png'
+import lo from './111.png'
+import { Link, animateScroll as scroll } from "react-scroll";
+
 export default function Navbar() {
 
   let togglestatus = true;
@@ -40,13 +42,29 @@ export default function Navbar() {
   return      <>
   <div className="navbar_11">
   <nav className="nav-main">
-        <div className="logo">
-          <img  src={logos} alt="" />
+        <div className="log">
+          <img  src={lo} alt="" />
           </div>
         <ul>
            <li> <a href="#">Home</a></li>
-           <li> <a href="#">Projects</a></li>
-           <li> <a href="#">Our Team</a></li>
+           <Link
+    activeClass="active"
+    to="down"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <li> <a href="#">Projects</a></li></Link>
+<Link
+    activeClass="active"
+    to="down2"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>  <li> <a href="#">Our Team</a></li></Link>
+           
+          
            <li> <a href="#">Rmageddon</a></li>
            <li> <a href="#">Techanovation</a></li>
         </ul>

@@ -1,0 +1,300 @@
+      <div className="outer-main-box">
+        <div className="main-box-nav sticky" data-aos="zoom-in">
+          <ul className="nav-contentss">
+            <li className="main-box-nav-ele" id="nav-ele-1">
+              <a href="#body-ele-1">Element 1</a>
+            </li>
+            <li className="main-box-nav-ele" id="nav-ele-2">
+              <a href="#body-ele-2">Element 2</a>
+            </li>
+            <li className="main-box-nav-ele" id="nav-ele-3">
+              <a href="#body-ele-3">Element 3</a>
+            </li>
+            <li className="main-box-nav-ele" id="nav-ele-4">
+              <a href="#body-ele-4">Element 4</a>
+            </li>
+            <li className="main-box-nav-ele" id="nav-ele-5">
+              <a href="#body-ele-5">Element 5</a>
+            </li>
+          </ul>
+        </div>
+        <div className="main-box-body">
+          <div className="top-section-mainbox">
+           
+              {/* <img className="img1" src={image3} alt=""  />
+           
+          
+              <img className="img2"src={image5} alt=""  />
+         
+            
+              <img className="img3"src={image6} alt="" />
+           
+            
+              <img  className="img4"src={image7} alt="" />
+            
+          
+              <img className="img5"src={image8} alt="" />
+            
+           
+              <img className="img6"src={image9} alt="" />
+           
+        
+              <img className="img7" src={image} alt="" />
+         
+         
+              <img className="img8"src={image2} alt="" />
+            
+          
+              <img className="img9"src={image6} alt="" />
+           
+            
+              <img className="img10"src={image10} alt="" /> */}
+
+            
+               
+               
+          </div>
+
+        </div>
+      </div>                       
+         <button className="main-tests">Rnxg</button>
+         <div className="contentss">
+            <h2 className="Content1">In touch. In the moment.</h2>
+            <p>iOS 15 lets you keep the conversation going while sharing movies, music or whatever’s on your screen right in FaceTime. Stay in the zone by filtering out any notifications that aren’t relevant to the task at hand. And interact with text in images to quickly send email, make calls, get directions and more.</p>
+         </div>
+        
+
+    </>
+
+    ///
+
+
+
+    
+.outer-main-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.main-box-nav{
+    background-color: white;
+    height: 40px;
+    margin: 0;
+    width: 100%;
+}
+.main-box-body{
+    height: 200vh;
+    width: 95%;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 5;font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace
+}
+.main-box-nav li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-contentss{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    /* line-height: 40px; */
+    width: 95%;
+}
+.main-box-nav-ele:hover, 
+.main-box-nav-ele:active{
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-box-body{
+ 
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #040D21; */
+    color: white;
+    /* border-radius: 25px; */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* padding: 10px; */
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+}
+.main-box-body-ele{
+    width: 50%;
+}
+.main-box-body-ele h3{
+    margin: 20px 0;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.main-box-body-ele img{
+    width: 100%;
+}
+
+
+.main-text  {
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    /* margin: 0 0 0 60px; */
+}
+.middle-section-mainbox{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+}
+.main1-image {
+    width: 50%;
+}
+.main1-image img {
+border-radius: 10px;
+}
+.main1-text h3 {
+    font-size: 90px;
+    width: 80%;
+}
+@media screen and (max-width: 480px) {
+
+    .nav-contentss{
+        width: 85%;
+ font-size: 12px;
+ font-weight: bold;
+    }
+    
+
+  }
+.main1-text  {
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    /* margin: 0 0 0 60px; */
+}.top-section-mainbox{
+   display: grid;
+}
+.img1 {
+    position: relative;
+    width: 244px;
+    height: 401px;
+    border-radius: 20px;
+    object-fit: cover;
+    top: -49px;
+    left: -282px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;}
+    .img2 {
+    position: relative;
+    width: 227px;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+    top: -562px;
+    left: 94px;
+    transform: rotatez(90deg);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;}
+
+.img3{
+    position: relative;
+    width: 227px;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+    top: -964px;
+    left: 543px;
+    transform: rotatez(90deg);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;}
+    .img4 {
+        position: relative;
+        width: 270px;
+        height: 404px;
+        border-radius: 20px;
+        object-fit: cover;
+        top: -1015px;
+        left: 627px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;    }
+.img5 {
+   
+    position: relative;
+    width: 227px;
+    height: 444px;
+    border-radius: 20px;
+    object-fit: cover;
+    top: -1323px;
+    left: -94px;
+    transform: rotatez(90deg);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;}
+    .img6 {
+   
+        position: relative;
+        width: 227px;
+        height: 450px;
+        border-radius: 20px;
+        object-fit: cover;
+        top: -2174px;
+        left: -579px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;   }  
+          .img7 {
+   
+            position: relative;
+            width: 275px;
+            height: 405px;
+            border-radius: 20px;
+            object-fit: cover;
+            top: -2315px;
+            left: 305px;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;       }
+
+            .img8 {
+                position: relative;
+                width: 286px;
+                height: 397px;
+                border-radius: 20px;
+                object-fit: cover;
+                top: -2515px;
+                left: -530px;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;     }
+                .img9 {
+                    position: relative;
+                    width: 266px;
+                    height: 397px;
+                    border-radius: 20px;
+                    object-fit: cover;
+                    top: -2672px;
+                    left: 630px;
+                    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;              }           
+                         .img10 {
+                            position: relative;
+                            width: 266px;
+                            height: 397px;
+                            border-radius: 20px;
+                            object-fit: cover;
+                            top: -2941px;
+                            left: -576px;
+                            transform: rotatez(90deg);
+                            box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;                     }
+                            .main-tests
+                            {
+                                width: 188px;
+                                height: 150px;
+                                top: 143%;
+                                left: 44%;
+                                color: #000;
+                                font-size: 50px;
+                                font-family: Montserrat, sans-serif;
+                                font-weight: 700;
+                                background: -webkit-linear-gradient(45deg, #0f95dd, #af4261);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                position: absolute;
+                                background-color: #fff;
+                                border-radius: 15px;
+                                border: none;
+                                box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;                        }
+
+                            

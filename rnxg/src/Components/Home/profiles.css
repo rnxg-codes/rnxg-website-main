@@ -1,7 +1,7 @@
 
 
 .list{
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto auto;
     padding: 10px;
     /* display: flex;
@@ -9,8 +9,9 @@
     align-items: center;
     width: 100%; */
 }
-
-
+.containerr{
+  margin: 0 16px 0 0px;
+}
 
 
   .cards .card .content{
@@ -26,7 +27,7 @@
     width: 130px;
     border-radius: 50%;
     padding: 3px;
-    background: #4e3c72;
+    /* background: #4e3c72; */
     margin-bottom: 14px;
   }
   .card .content .img img{
@@ -37,8 +38,8 @@
     object-fit: cover;
   }
   .card .content .name{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 300;
   }
   .card .content .job{
     font-size: 20px;

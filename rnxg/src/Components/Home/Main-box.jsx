@@ -1,48 +1,57 @@
-import React from 'react';
-import './mainbox.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-import image from '../images/11.jpg'
-import image1 from '../images/33.png'
-import Profiles from './profiles';
+import React from "react";
+import "./mainbox.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import image from "../images/11.jpg";
+import image1 from "../images/33.png";
+import image2 from "../images/22.JPG";
+import image3 from "../images/44.jpg";
+import image5 from "../images/55.jpg";
+import image6 from "../images/66.jpg";
+import image7 from "../images/77.jpg";
+import image8 from "../images/88.JPG";
+import image9 from "../images/99.JPG";
+import image10 from "../images/10.jpg";
+import Profiles from "./profiles";
+import "./main2.css";
+import Slider from "./slider";
 export default function Mainbox() {
+  return (
+ <>
+ <div className="bg">
+   <div className="rgmd">
+<h1>TRANSFORMATIVE MOBILITY</h1>
+<p>Spot is an agile mobile robot that navigates terrain with unprecedented mobility, allowing you to automate routine inspection tasks and data capture safely, accurately, and frequently.</p>
+<span>The results? Safer, more efficient and more predictable operations.</span>
+   </div>
+   <div className="lfmd">
+     <div className="video">
+       <video  loop autoPlay muted id='video1' >
+<source src="https://cdn.dribbble.com/users/32512/screenshots/15330154/media/87c27dd3eb379beba1a61975fb9f6b43.mp4" type="video/mp4"/>
+</video>
+     </div>
 
-  return <>
-      <div className="outer-main-box">
-        <div className="main-box-nav sticky" data-aos="zoom-in">
-          <ul className="nav-contentss">
-            <li className="main-box-nav-ele" id="nav-ele-1"><a href="#body-ele-1">Element 1</a></li>
-            <li className="main-box-nav-ele" id="nav-ele-2"><a href="#body-ele-2">Element 2</a></li>
-            <li className="main-box-nav-ele" id="nav-ele-3"><a href="#body-ele-3">Element 3</a></li>
-            <li className="main-box-nav-ele" id="nav-ele-4"><a href="#body-ele-4">Element 4</a></li>
-            <li className="main-box-nav-ele" id="nav-ele-5"><a href="#body-ele-5">Element 5</a></li>
-          </ul>
-        </div>
-        <div className="main-box-body">
-          <div className="top-section-mainbox">
-          <div className="main-image" data-aos="">
-           <img   src={image} alt="" />
-         </div> 
-         <div className="main-text" data-aos="fade-up">
-           <h3>Bring on the Rnxg</h3>
-         </div>
-          </div>
-          <div className="middle-section-mainbox">
-          <div className="main1-text" data-aos="fade-up">
-           <h3>Its a drone</h3>
-         </div>
-          <div className="main1-image" data-aos="">
-           <img width="75%"  src={image1} alt="" />
-         </div>
-        
-          </div> <Profiles />
-        </div>
-        
-      </div>
-  </>;
+   </div>
+ </div>
+ <div className="fg">
+ <h1>MEET OUR CUSTOMERS</h1>
+ <div className="pro">
+   <img id="lol1" src="https://miro.medium.com/max/1400/0*r5nr0xUKZkMFEV0a.png" alt="" />
+   <img  id="lol2" src="https://newsonair.com/robocon2022/wp-content/uploads/sites/24/2021/10/robocon-logo-v2-72-ppi-01.png" alt="" />
+   <img  id="lol3"src="https://yt3.ggpht.com/ytc/AKedOLSkaYvbtH1v3mhrrJShlHbcZpBo6efV_QPwqvPX=s900-c-k-c0x00ffffff-no-rj" alt="" />
+   <img  id="lol4"src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png" alt="" />
+ </div>
+ </div>
+ <div className="sliderq" id="down2">
+   <h1>Our Team</h1>
+ <Slider/>
+ </div>
+ </>
+
+  );
 }
-  // <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    AOS.init({
-      duration:1000,
-    });
+// <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>;
+AOS.init({
+  duration: 1000,
+});

@@ -6,7 +6,7 @@ export default function Profiles() {
     return (<>
     <div className="list">
         {User.map((User)=>{
-            return <div className="container">
+            return <div className="containerr">
 
     {/* <div className="main-card"> */}
       <div className="cards">
