@@ -4,7 +4,8 @@ import './Homebody.css';
 import Mainbox from './Main-box';
 import Navbar from './Navbar';
 import Topbox from './topbox';
-import { Link, animateScroll as scroll } from "react-scroll";
+import Events  from './Events';
+//import { Link, animateScroll as scroll, Events } from "react-scroll";
 export default function HomeBody() {
   return <>
     
@@ -22,6 +23,10 @@ export default function HomeBody() {
 
 <div className="E4">
   <Footer/>
+</div>
+
+<div className="E5">
+<Events/>
 </div>
 
 

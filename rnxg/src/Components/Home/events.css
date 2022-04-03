@@ -1,0 +1,15 @@
+.Eve-Cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    column-gap: 24px;
+    row-gap: 24px;
+    max-width: 948px;
+    margin: 0 auto;
+  }
+  
+  
+  .New-Card {
+    height: 438px;
+    width: 300px;
+  }
