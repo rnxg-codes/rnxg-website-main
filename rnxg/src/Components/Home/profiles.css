@@ -1,7 +1,7 @@
 
 
 .list{
-    display: flex;
+    display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
     /* display: flex;
@@ -10,7 +10,7 @@
     width: 100%; */
 }
 .containerr{
-  margin: 0 16px 0 0px;
+  margin: 0 0px 60px 0px;
 }
 
 
@@ -23,8 +23,8 @@
     text-align: center;
   }
   .cards .card .content .img{
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     padding: 3px;
     /* background: #4e3c72; */
@@ -38,8 +38,8 @@
     object-fit: cover;
   }
   .card .content .name{
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 500;
   }
   .card .content .job{
     font-size: 20px;
@@ -51,3 +51,20 @@
   
   }
 
+  .linkdin{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 120px;
+    left: 5px;
+  }
+.linkdin button{
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 100%;
+  background-color: #00A4BD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

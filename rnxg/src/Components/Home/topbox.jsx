@@ -52,7 +52,6 @@ export default function Topbox() {
     <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="" />
 </div>
   <div className="bottom-curve">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" preserveAspectRatio="none" viewBox="0 0 1680 40" className="position-absolute width-full z-1" style={{bottom: "-4px",position:"relative"}}><path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path></svg>
 
 </div>
   </div>

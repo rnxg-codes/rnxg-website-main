@@ -203,3 +203,12 @@ transition:  ease-in;
     cursor: pointer;
   
 }
+@media screen and (max-width: 480px) {
+
+  .log img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    /* border-radius: 100%; */
+}
+}

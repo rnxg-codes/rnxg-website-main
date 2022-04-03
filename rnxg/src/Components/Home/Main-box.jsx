@@ -35,7 +35,7 @@ export default function Mainbox() {
    </div>
  </div>
  <div className="fg">
- <h1>MEET OUR CUSTOMERS</h1>
+ <h1> Our Participation</h1>
  <div className="pro">
    <img id="lol1" src="https://miro.medium.com/max/1400/0*r5nr0xUKZkMFEV0a.png" alt="" />
    <img  id="lol2" src="https://newsonair.com/robocon2022/wp-content/uploads/sites/24/2021/10/robocon-logo-v2-72-ppi-01.png" alt="" />
@@ -43,10 +43,10 @@ export default function Mainbox() {
    <img  id="lol4"src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png" alt="" />
  </div>
  </div>
- <div className="sliderq" id="down2">
+ {/* <div className="sliderq" id="down2">
    <h1>Our Team</h1>
  <Slider/>
- </div>
+ </div> */}
  <div className="about">
    <div className="em1">
         <h1>Why our members love us</h1>
@@ -55,10 +55,10 @@ export default function Mainbox() {
 
     <div className="art">
    <Cards/>
-   <span>
+   <a>
       <Cards/>
    <Cards/>  
-   </span>
+   </a>
 
 
  </div>

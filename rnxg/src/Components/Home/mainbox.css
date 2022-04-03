@@ -122,9 +122,102 @@ height: 15%;
     justify-content: space-between;
     align-items: center;
 }
-.art span {
+.art a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 70%;
+}
+@media screen and (max-width: 480px) {
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+    height: 1355px;
+    margin: -75px 0 75px 0px;
+}
+.em1{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .art {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 1200px;
+
+}  
+.art a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 770px;
+}
+  /* bg */
+  .bg{
+      width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .rgmd h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }  .rgmd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+.rgmd p{
+    font-size: 16px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -15px 0px 0px 0px;
+}
+.rgmd span {
+    margin: 15px 0px 0 0;
+    width: 65%;
+}
+.lfmd{
+    width: 100%;
+}
+.video{
+    width: 85%;
+    height: 285px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+/* fg */
+.fg{
+    width: 100%;
+    height: 40vh;
+    margin: 140px 0px 0 0;
+}
+.fg h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
 }

@@ -29,5 +29,9 @@ align-items: center;
     .E3{
         width: 100%;
     }
-
+.E4{
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+}
   }

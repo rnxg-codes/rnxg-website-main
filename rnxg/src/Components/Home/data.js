@@ -65,7 +65,7 @@
         "Email Address": "SNEHDEEP PRAKASH ALANE",
         "Name": "Snehdeep Prakash Alane",
         " Email Id": "2019bme015@sggs.ac.in",
-        "LinkedIn": "linkedin.com/in/snehdeep-alane-b9013a196",
+        "LinkedIn": "https://www.linkedin.com/in/snehdeep-alane-b9013a196/",
         "Recent Photograph": "https://drive.google.com/open?id=11jjj5O62gG8eveqGgwiYzoX3kar7Jy-P",
                 "image":"https://media-exp1.licdn.com/dms/image/C5603AQGX5aibR6U3Aw/profile-displayphoto-shrink_400_400/0/1622015528043?e=1654128000&v=beta&t=y65A9OsRrERp_t5vKl3y9vfNuffOwEqOUAdRqifs5c4"
 
@@ -115,7 +115,7 @@
         "Email Address": "SAKSHI NITIN KULKARNI",
         "Name": "Sakshi Nitin Kulkarni",
         " Email Id": "2019bec098@sggs.ac.in",
-        "LinkedIn": "linkedin.com/in/kulkarnisakshi",
+        "LinkedIn": "https://www.linkedin.com/in/kulkarnisakshi/",
         "Recent Photograph": "https://drive.google.com/open?id=1aciieKuqY70fKaRuZTDjy1_CtakBGOoU",
                 "image":"https://media-exp1.licdn.com/dms/image/C4E03AQFCQ6tjoay4BA/profile-displayphoto-shrink_400_400/0/1621961422230?e=1654128000&v=beta&t=4J4NsITVa_r2qjcDa1HugtlJjR7Ni3o2cWEB6S-eRhk"
 
