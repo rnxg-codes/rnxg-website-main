@@ -65,8 +65,8 @@ export default function Navbar() {
 >  <li> <a href="#">Our Team</a></li></Link>
            
           
-           <li> <a href="#">Rmageddon</a></li>
-           <li> <a href="#">Techanovation</a></li>
+           <li> <a href="#">Events</a></li>
+           <li> <a href="#">Projects</a></li>
         </ul>
     </nav>
 
