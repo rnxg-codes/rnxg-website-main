@@ -4,6 +4,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import HomeBody from './Components/Home/Home-Body';
 import Profiles from './Components/Home/profiles';
+import Events from './Components/Pages/Events';
 
 
 
@@ -12,12 +13,13 @@ import Profiles from './Components/Home/profiles';
 function App() {
   return (
 <>
-<Router>
+<Routes>
         <Route path="/home" element={ <HomeBody/> } />
         <Route path="/profiles" element={ <Profiles/> } />
+        <Route path="/events" element={ <Events/> } />
        
-      </Router>
-
+      </Routes>
+{/* <Profiles/> */}
 </>
   );
 }

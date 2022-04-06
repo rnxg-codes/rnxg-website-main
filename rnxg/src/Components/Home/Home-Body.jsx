@@ -25,9 +25,9 @@ export default function HomeBody() {
   <Footer/>
 </div>
 
-<div className="E5">
+{/* <div className="E5">
 <Events/>
-</div>
+</div> */}
 
 
       

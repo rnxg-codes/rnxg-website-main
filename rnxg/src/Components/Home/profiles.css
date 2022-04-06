@@ -1,70 +1,192 @@
-
-
-.list{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; */
-}
-.containerr{
-  margin: 0 0px 60px 0px;
-}
-
-
-  .cards .card .content{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .cards .card .content .img{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    padding: 3px;
-    /* background: #4e3c72; */
-    margin-bottom: 14px;
-  }
-  .card .content .img img{
-    height: 100%;
-    width: 100%;
-    border: 3px solid #ffff;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  .card .content .name{
-    font-size: 18px;
-    font-weight: 500;
-  }
-  .card .content .job{
-    font-size: 20px;
-    color: #FF676D;
-  }
-  .card .content .media-icons{
-    margin-top: 10px;
-    display: flex;
-  
-  }
-
-  .linkdin{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top: 120px;
-    left: 5px;
-  }
-.linkdin button{
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 100%;
-  background-color: #00A4BD;
+.profiles-main{
   display: flex;
+  flex-direction: column;
+  width: 100%; background-color: #141414;
+  align-items: center;
+}
+.profile-top{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+ color: white;
+ font-family: Roboto;
+ 
+}
+.profile-top img{
+width: 100%;
+}
+.profile-top h1 {
+  font-size: 50px;
+}
+.profile-top p{
+line-height: 25px;
+  width: 95%;
+}
+.profile-between{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100vh;
+  justify-content: space-around;
+  
+}.profile-between h1{
+color: #FE6C3E;
+font-family: Roboto;
+margin: 60px 432px 0px 0;
+
+
+}
+.our-mission{
+width: 700px;
+height: 263px;
+background-color: #24201E;
+border-radius: 30px;
+display:flex ;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+align-self: flex-end;
+}
+.profile-between p {
+  font-size: 20px;
+  width: 600px;
+}
+.our-vision{
+  width: 700px;
+  height: 263px;
+  background-color: #24201E;
+  border-radius: 30px;
+  display:flex ;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-down{
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  /* top: 0;  */
+  width: 100%;
+  background-color: #1b1b1b;
+  justify-content: space-evenly;
+}
+.linkdin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.linkdin button{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  background-color: #6CA2BB;
+  z-index: 1;
+  margin: 170px 0 0 0;
+}
+
+.tiltee{
+  width: 20%;
+  position: sticky;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  top: 0;
+}
+
+.gallery-of-team{
+display: flex;
+  flex-direction: row;
+  padding: 10px;
+ justify-self: flex-start;
+flex-wrap: wrap;
+width: 50%;
+position: relative;
+
+}
+.profile-down h1 span{
+color: #FE6C3E;
+}
+.profile-card{
+  width: 240px;
+  height: 297px;
+  display: flex;
+  flex-direction: column;
+  background-color: #24201E;
+  color: white;
+  align-items: center;
+  margin: 0 13px 13px 0px;
+  cursor: pointer;
+}
+.profile-card img{
+  object-fit: cover;
+  width: 240px;
+  filter: grayscale(100%);
+
+}
+@media screen and (max-width: 480px) {
+
+.profile-between{
+  display: flex;
+  flex-direction: column;
+
+}
+.our-mission{
+  width: 370px;
+  display: flex;
+  align-self: center;
+justify-self: center;
+justify-content: center;
+}
+.our-vision{
+  width: 370px;
+display: flex;
+justify-self: center;
+align-self: center;
+justify-content: center;
+
+}
+.our-vision p {
+  width: 90%;
+}.our-vision h1 {
+  margin: 0 0 0 0;
+}
+.our-mission p{
+  width: 90%;
+}
+.our-mission h1 {
+  margin: 0 0 0 0;
+}
+.gallery-of-team{
+  padding: 0;
+  margin: 0 0 0 50px;
+}
+.profile-down{
+  justify-content: space-around;
+ width: 100%;
+}
+.profile-card img{
+  width: 200px;
+}
+.profile-card{
+  width: 230px;
+  height: 260px;
+}
+.linkdin button {
+  margin: 130px 0 0 0;
+}
+.profile-top{
+  height: 75vh;
+}
 }

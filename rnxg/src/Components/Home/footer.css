@@ -5,13 +5,13 @@
 color: #fff;
 }
 .Rnxg{
-  width: 26%;
+  width: 25vw;
   display: flex;
 flex-direction: column;
 align-items: center;
 }.Rnxg span{
   margin: 10px 0px 0px 45px;
-  line-height: 150px;
+  /* line-height: 150px; */
 }
 .Rnxg h1{
 margin: 0 170px 0 0;
@@ -22,7 +22,7 @@ color: transparent;
 width: 70%;
 }
 .club{
-  width: 25%;
+  width: 25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@ width: 70%;
   margin: 0 35px 0 0px;
 }
 .other-links{
-  width: 25%;
+  width: 25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +62,7 @@ width: 70%;
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 27%;
+  width: 27vw;
   line-height: 40px;
 }.contact-us h1{
   font-weight: 400;

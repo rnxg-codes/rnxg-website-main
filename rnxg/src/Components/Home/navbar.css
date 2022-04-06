@@ -1,5 +1,5 @@
 .nav-main{
-  position: relative;
+  position: absolute;
   top: -25px;
   left: 0;
   width: 100%;
@@ -7,7 +7,7 @@
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  z-index: 1;
+  /* z-index: 1; */
   align-items: center;
   z-index: 10;
 }
@@ -123,6 +123,7 @@ cursor: pointer;
 }
 .nav-main{
   top: 0;
+ 
 }
  .toggle{
    visibility:visible;
@@ -205,6 +206,17 @@ transition:  ease-in;
 }
 @media screen and (max-width: 480px) {
 
+  .toggle{
+   z-index: 10;
+   left: 150px;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   cursor: pointer;
+  }
+  .navbar_11{
+    height: 10vh;
+  }
   .log img {
     width: 100px;
     height: 100px;
