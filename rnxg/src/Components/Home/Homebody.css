@@ -14,7 +14,10 @@ align-items: center;
    
 }
 .E3{
-    width: 97%;
+    width: 100%;
+    color: #fff;
+    background-color: #1b1b1b;
+    margin: 150px 0 0 0;
 }
 .E4{
     width: 100%;
@@ -27,6 +30,7 @@ align-items: center;
 @media screen and (max-width: 480px) {
 
     .E3{
+        margin: -50px 0 0 0;
         width: 100%;
     }
 .E4{

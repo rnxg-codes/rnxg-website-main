@@ -3,7 +3,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-
+background-color: #141414;
+color: white;
+}
+.svg{
+    background-color: #141414;
+    height: 45vh;
 }
 .rgmd{
 width: 50%;
@@ -23,7 +28,7 @@ width: 70%;
 font-size: 18px;
 width: 70%;
 font-weight: bold;
-color: #00355A;
+color: #FE6C32;
 }
 .lfmd{
     width: 50%;
@@ -129,7 +134,10 @@ height: 15%;
     height: 70%;
 }
 @media screen and (max-width: 480px) {
-
+    .svg{
+       
+        height: 85px;
+    }
 .about{
     display: flex;
     flex-direction: column;

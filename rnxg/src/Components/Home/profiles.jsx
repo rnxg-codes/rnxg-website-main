@@ -10,7 +10,7 @@ export default function Profiles() {
  
     <div className="profiles-main">
        <Navbar/>  
-      <div className="profile-top">
+      <div className="profile-top" id='top1'>
         <h1>Who are we?</h1>
         <p><center>We're a bunch of young people trying to solve as many  problems as possible for college students</center> <center> and giving them an optimum, all-in-one platform for their overall growth.</center></p>
         <img src="https://www.bluelearn.in/assets/bitmojies.png" alt="" />

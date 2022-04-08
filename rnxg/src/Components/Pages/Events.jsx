@@ -5,7 +5,7 @@ import Footer from '../Home/Footer';
 export default function Events() {
   return (
     <>
- <div className="main-events">
+ <div className="main-events" id='top1'>
 <Navbar/>
 
     <div className="Events-top">

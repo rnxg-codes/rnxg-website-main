@@ -43,24 +43,17 @@ export default function Navbar() {
   <div className="navbar_11">
   <nav className="nav-main">
         <div className="log">
-          <img  src={lo} alt="" />
+         <a href="/home"><img  src={lo} alt="" /></a> 
           </div>
         <ul>
            <li> <a href="/home">Home</a></li>
-           <Link
-    activeClass="active"
-    to="down"
-    spy={true}
-    smooth={true}
-    offset={-70}
-    duration={500}
-> <li> <a href="#">Projects</a></li></Link>
+ <li> <a href="/projects">Projects</a></li>
 
   <li> <a href="/profiles">Our Team</a></li>
            
           
            <li> <a href="/events">Events</a></li>
-           <li> <a href="#">Projects</a></li>
+           <li> <a href="#">About</a></li>
         </ul>
     </nav>
 

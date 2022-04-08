@@ -24,7 +24,7 @@ export default function Topbox() {
      </div>
 </div>
 <div className="t-low-title">
-<h4>Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.</h4>
+<h4>RNXG’s mission is to increase enthusiasm and knowledge towards robotics by providing a hands on and multidisciplinary collaboration experience in designing, programming. We always try to familiarize with new technology.</h4>
 </div>
 <div className="mainbutton">
  
@@ -47,18 +47,17 @@ export default function Topbox() {
 
 <div className="background-glow">
   <video id='video1' loop autoPlay muted >
-  <source src={Video} type="video/mp4"/>
+  {/* <source src={Video} type="video/mp4"/> */}
   </video>
     <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="" />
 </div>
-  <div className="bottom-curve">
 
-</div>
   </div>
 
-<div className="bottom">
-
+  <div className="bottom-curve">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#141414" fill-opacity="1" d="M0,160L80,138.7C160,117,320,75,480,74.7C640,75,800,117,960,138.7C1120,160,1280,160,1360,160L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
 </div>
+
 </div>
   </>
 }
