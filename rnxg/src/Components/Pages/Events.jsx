@@ -24,7 +24,7 @@ export default function Events() {
     <div className="Events-between">
         <div className="Events-bet-top">
 <h1>Upcoming events for you.</h1>
-<p><center>Learn from experts and network through events, join clubs and take courses to meet like-minded</center><center> people and learn real life skills, Hang out on our discord server to make new friends and have fun!</center></p>
+<p><center>Rmageddon is a intra college robotics event organised by first year team.</center><center>  Here we organise workshops and conduct various compititions.</center></p>
         </div>
         <div className="Events-bet-down">
 <div className="event-card">
@@ -32,7 +32,7 @@ export default function Events() {
 <img src="https://alifeofproductivity.com/wp-content/uploads/2013/10/bill-gates-at-ted-talks-education.jpg" alt="" />
     </div>
     <div className="info">
-<h3>A Life of Productivity</h3>
+<h3>Rmageddon(2022)</h3>
     
     <div className="time-share">
 <div className="time">
@@ -53,12 +53,12 @@ export default function Events() {
             <h1><center>If you missed something, access it right here</center></h1>
 
             <div className="labels">
-                <button>Content Creation</button>
-                <button>Finance</button>
-                <button>Technology</button>
-                <button>Freelancing</button>
-                <button>Guest Talks</button>
-                <button>Entrepreneurship</button>
+                <button>RMAGEDDON 2020</button>
+                <button>Technovation</button>
+                <button>END GAME</button>
+                <button>CIVIL WARS</button>
+                <button>FAST N FOLLOWER</button>
+              
             </div>
         </div>
         <div className="old-events">

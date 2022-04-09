@@ -2,7 +2,11 @@ import React from 'react'
 import Footer from '../Home/Footer'
 import Navbar from '../Home/Navbar'
 import './Project.css'
-export default function Project() {
+import { project } from '../Home/info (1)'
+export default function Project()
+
+{
+  console.log(project)
   return (
    <>
  <div className="Projects">
@@ -23,7 +27,24 @@ export default function Project() {
 </div>
 <div className="pro-bet-down">
             <div className="project-card">
-         
+            {project.map((project)=>{
+      return <div className="projectss">
+<div className="project-img">
+<img src={project.img} alt="" />
+</div>
+<div className="project-title">
+<h4><center>{project['Project-Name']}</center></h4>
+</div>
+<div  className="description">
+<p><center>{project.Description}</center> </p>
+</div>
+<div className="team">
+<span><center>{project.Team}</center></span>
+</div>
+      </div>
+
+      
+  })}
         </div>
 </div>
      </div>

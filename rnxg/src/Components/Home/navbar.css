@@ -137,7 +137,7 @@ cursor: pointer;
     height: 100vh;
     width: 300px;
     display: flex;
- background-color: #ffffff;
+ background-color: #434242;
     z-index: 10;
    transition: 0.5s ;
     left:-300px;
@@ -149,7 +149,7 @@ cursor: pointer;
     justify-content: center;
     width: 300px;
     height: 500px;
-   
+  
     
 }
 .wrapper ul {
@@ -167,11 +167,7 @@ cursor: pointer;
     list-style: none;
 }
 .wrapper ul li a:hover{
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    animation: gradient 10s ease infinite;
-    background-size: 400% 400%;
-color: #ffffff;
+
 transition:  ease-in;
 }
 @keyframes gradient {
@@ -193,13 +189,13 @@ transition:  ease-in;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-     color: black;
-    
+     color: #fff;
+     background-color: #434242;
     align-items: center;
     
    width: 185px;
     padding: 18px 25px;
-    background-color: #fff;
+
     border-radius: 5px;
     cursor: pointer;
   

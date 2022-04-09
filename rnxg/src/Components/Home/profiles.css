@@ -140,7 +140,7 @@ color: #FE6C3E;
 .profile-between{
   display: flex;
   flex-direction: column;
-
+height: 70vh;
 }
 .our-mission{
   width: 370px;
@@ -187,6 +187,9 @@ justify-content: center;
   margin: 130px 0 0 0;
 }
 .profile-top{
-  height: 75vh;
+  height: 85vh;
+}
+.profile-top img {
+ display: none;
 }
 }

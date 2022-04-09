@@ -39,4 +39,64 @@ margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
+
+}
+.pro-bet-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-family: Roboto; */
+}
+.project-card{
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.projectss{
+    width: 281px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+/* justify-content: space-evenly; */
+background-color: #24201E;
+border-radius: 30px;
+margin: 30px 0 30px 0;
+}
+.projectss img{
+    width: 281px;
+    height: 150px;
+    object-fit: cover;
+}
+.description{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    width: 95%;
+}
+.description p{
+font-weight: 400;
+}
+.team span{
+    color: red;
+    font-size: 14px;
+    font-weight: 100;
+}
+@media screen and (max-width: 480px) {
+    .project-top-left p {
+        width: 370px;
+    }
+    .project-card{
+        width: 70%;
+    }
+    .project-top-left{
+        height: 88vh;
+    }
 }
