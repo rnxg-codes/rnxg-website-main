@@ -265,7 +265,7 @@ font-size: 15px;
   margin: 0;
 }
 .icons{
-  margin: 0 0 0 0;
+  /* margin: 0 0 0 0; */
 }
 .go-top{
   height: 40px;
@@ -273,5 +273,8 @@ font-size: 15px;
   top: -40px;
   width: 40px;
   left: 335px;
+}
+.icons {
+  width: 70%;
 }
 }

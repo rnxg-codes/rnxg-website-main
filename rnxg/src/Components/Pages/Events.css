@@ -199,7 +199,7 @@ font-weight: 500;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 50vh;
+    height: 40%;
     z-index: 1;
     background-color: #141414;
 }
