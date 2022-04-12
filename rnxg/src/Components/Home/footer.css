@@ -8,13 +8,13 @@ color: #fff;
   width: 25vw;
   display: flex;
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
 }.Rnxg span{
-  margin: 10px 0px 0px 45px;
+ 
   /* line-height: 150px; */
 }
 .Rnxg h1{
-margin: 0 170px 0 0;
+
 background-image: linear-gradient(60deg, #E21143, #FFB03A);
 background-clip: text;
 color: transparent;
@@ -25,32 +25,36 @@ width: 70%;
   width: 25vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   
-}.club li{
+}
+.club ul{
+  padding: 0;
+}
+.club li{
  list-style: none;
  line-height: 40px;
 }
 .club h1 {
   font-weight: 400;
-  margin: 0 35px 0 0px;
+  
 }
 .other-links h1 {
   font-weight: 400;
 
-  margin: 0 35px 0 0px;
+
 }
 .other-links{
   width: 25vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }.other-links li{
   list-style: none;
   line-height: 40px;
-  margin: 0 0px 0 0px;
+  
 }.other-links ul{
-  margin: 10px 0px 0 -150px;
+ padding: 0;
  
   
 }.other-links li{
@@ -59,7 +63,7 @@ width: 70%;
   
 }
 .contact-us{
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   width: 27vw;
@@ -67,9 +71,8 @@ width: 70%;
 }.contact-us h1{
   font-weight: 400;
 
-  margin: 0 190px 0 0;
 }.contact-us p{
-  margin: 0px 0 0 -225px;
+ 
   background-image: linear-gradient(60deg, #E21143, #FFB03A);
   background-clip: text;
   color: transparent;
@@ -78,9 +81,9 @@ width: 70%;
 .icons{
 
   display: flex;
-  width: 60%;
+  width: 100%;
   justify-content: space-between;
-  margin: 12px 0 0 -130px;
+ 
 }
 .icons button {
   width: 40px;
@@ -107,6 +110,89 @@ width: 70%;
   height: 40px;
   top: 98px;
   width: 40px;
+
+}
+@media screen and (max-width: 768px) {
+
+  
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 0;
+  height: 45%;
+}
+.Rnxg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Rnxg p{
+font-weight: 100;
+font-size: 15px;
+}
+.Rnxg span {
+  display: none;
+  position: absolute;
+  top: 574vh;
+  left: -27px;
+}
+.club{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.club h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+.club li{
+  margin: 0 0 0 0;
+}.club ul{
+  padding: 0 0 0 0;
+}
+.other-links{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.other-links h1{
+  font-weight: 500;
+  font-size: 30px;
+}
+.other-links ul {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+.contact-us{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-us h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+.contact-us p {
+  margin: 0;
+}
+.icons{
+  margin: 0 0 0 0;
+  width: 40%;
+}
+.go-top{
+  height: 40px;
+  position: relative;
+  top: -40px;
+  width: 40px;
+  left: 650px;
+}
+
+
+
 
 }
 @media screen and (max-width: 480px) {

@@ -197,8 +197,9 @@ font-weight: 500;
     top: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    height: 50vh;
     z-index: 1;
     background-color: #141414;
 }
@@ -222,27 +223,30 @@ font-weight: 500;
 }
 .old-events{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 100vh;
+    flex-wrap: wrap;
 }
 .old-event-card{
    display: flex;
    flex-direction: column;
     width: 327px;
-    height: 372px;
+    height: 336px;
     
 
 }
-.old-event-card img{
+.old-event-card iframe{
 object-fit: contain;
+border: none;
 width: 100%;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
 .down-content button{
 width: 200px;
+cursor: pointer;
 height: 50px;
 border-radius: 30px;
 background-color: transparent;

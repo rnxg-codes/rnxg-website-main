@@ -4,7 +4,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import HomeBody from './Components/Home/Home-Body';
 import Profiles from './Components/Home/profiles';
-import Events from './Components/Pages/Events';
+import Events from './Components/Pages/Events.jsx';
 import Project from './Components/Pages/Project';
 
 

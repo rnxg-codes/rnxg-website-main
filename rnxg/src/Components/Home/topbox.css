@@ -151,13 +151,40 @@ height: 90%;}
         z-index: -2;
         filter: blur(40px);
       }
+      @media screen and (max-width: 1440px) {
+.bottom-curve{
+    height: 17vh;
+}
 
+
+      }     
+       @media screen and (max-width: 1024px) {
+.topbox-content p{
+    font-size: 55px;
+    margin: 115px 0 0 0;
+}
+
+
+      }
+      @media screen and (max-width: 768px) {
+
+        .topbox-content p {
+            font-size: 40px;
+            margin: 150px 0 0 0;
+        }
+         .topbox-content h4{
+             font-size: 16px;
+             
+         } 
+        
+      }
       @media screen and (max-width: 480px) {
         .topbox-content p{
             font-size: 40px;
             font-family: 'Roboto', sans-serif;
             font-weight: bold;
             width: 100%;
+            margin: 35px 0 0 0;
             }
             .t-left{
                 width: 100%;
@@ -187,7 +214,7 @@ height: 90%;}
 
                 }
                 .bottom-curve{
-                    height: 0px;
+                    height: 40px;
                 }
 
       }

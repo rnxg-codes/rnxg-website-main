@@ -27,6 +27,18 @@ align-items: center;
     height: 85vh;
     align-items: center;
 }
+@media screen and (max-width: 1024px) {
+  .E3 {margin: 0 0 0 0;} 
+}
+@media screen and (max-width: 768px) {
+.E4{
+    height: 150vh;
+    align-items: flex-start;
+}
+
+
+
+}
 @media screen and (max-width: 480px) {
 
     .E3{

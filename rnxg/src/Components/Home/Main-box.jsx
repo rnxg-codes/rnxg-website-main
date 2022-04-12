@@ -23,9 +23,9 @@ export default function Mainbox() {
  <>
  <div className="bg">
    <div className="rgmd">
-<h1>Why RNXG?!</h1>
-<p>Join niche clubs, interact with experts, explore, network with high-profile and ambitious individuals, get internships, and join India’s largest community all for free! What are you waiting for?</p>
-<span>The results? Safer, more efficient and more predictable operations.</span>
+<h1><center>Why RNXG?!</center></h1>
+<p><center>Join niche clubs, interact with experts, explore, network with high-profile and ambitious individuals, get internships, and join India’s largest community all for free! What are you waiting for?</center></p>
+<span><center>The results? Safer, more efficient and more predictable operations.</center></span>
    </div>
    <div className="lfmd">
      <div className="video">
