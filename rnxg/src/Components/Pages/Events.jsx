@@ -2,6 +2,8 @@ import React from 'react'
 import './Events.css'
 import { event } from './eventss';
 import Navbar from '../Home/Navbar';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import Footer from '../Home/Footer';
 export default function Events() {
   return (
@@ -14,15 +16,24 @@ export default function Events() {
 <div className="Events-top-rig">
 <h2>RNXG <span>EVENTS</span></h2>
 <h1>The events that actually help you grow !</h1>
-<p>Get access to free LIVE events that help you explore your favorite fields and grow to the next level. They’re taken by industry experts having vast knowledge about their subject.</p>
+<p>RNXG not only participate in competitions, but also hosts its own events. Let's have a look at some of the events that we have arranged.</p>
+<Link
+    activeClass="active"
+    to="random"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>
 <button>Explore <span><svg xmlns="http://www.w3.org/2000/svg" class="octicon arrow-symbol-mktg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path><path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path></svg></span></button>
+</Link>
 </div>
 {/* <div className="Events-top-lef">
 
 </div>    */}
 
     </div>
-    <div className="Events-between">
+    <div className="Events-between" id='random'>
         <div className="Events-bet-top">
 <h1>Upcoming events for you.</h1>
 <p><center>Rmageddon is a intra college robotics event organised by first year team.</center><center>  Here we organise workshops and conduct various compititions.</center></p>
@@ -56,9 +67,7 @@ export default function Events() {
             <div className="labels">
                 <button>RMAGEDDON 2020</button>
                 <button>Technovation</button>
-                <button>END GAME</button>
-                <button>CIVIL WARS</button>
-                <button>FAST N FOLLOWER</button>
+
               
             </div>
         </div>
@@ -91,7 +100,10 @@ export default function Events() {
   
         </div>
     </div>
-     <Footer/>
+    <div className="E4">
+       <Footer/>  
+    </div>
+    
  </div>
     </>
   )

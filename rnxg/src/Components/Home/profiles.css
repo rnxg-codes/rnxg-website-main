@@ -1,7 +1,8 @@
 .profiles-main{
   display: flex;
   flex-direction: column;
-  width: 100%; background-color: #141414;
+  width: 100%; 
+  background-color: #040D21;
   align-items: center;
 }
 .profile-top{
@@ -10,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 75vh;
  color: white;
  font-family: Roboto;
  
@@ -20,10 +21,16 @@ width: 100%;
 }
 .profile-top h1 {
   font-size: 50px;
+  background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
 }
 .profile-top p{
 line-height: 25px;
   width: 95%;
+  color: #8193b2;
 }
 .profile-between{
   width: 75%;
@@ -34,7 +41,11 @@ line-height: 25px;
   justify-content: space-around;
   
 }.profile-between h1{
-color: #FE6C3E;
+  background: -webkit-linear-gradient(-70deg, #3bf0e4 0%, #bca1f7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
 font-family: Roboto;
 margin: 60px 432px 0px 0;
 
@@ -54,6 +65,7 @@ align-self: flex-end;
 .profile-between p {
   font-size: 20px;
   width: 600px;
+  color: #8193b2;
 }
 .our-vision{
   width: 700px;
@@ -116,7 +128,11 @@ position: relative;
 
 }
 .profile-down h1 span{
-color: #FE6C3E;
+  background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
 }
 .profile-card{
   width: 240px;
@@ -175,16 +191,21 @@ justify-content: center;
 .profile-down{
   justify-content: space-around;
  width: 100%;
+ -webkit-tap-highlight-color: transparent;
+
 }
 .profile-card img{
   width: 200px;
 }
 .profile-card{
+  -webkit-tap-highlight-color: transparent;
+
+
   width: 230px;
   height: 260px;
 }
 .linkdin button {
-  margin: 130px 0 0 0;
+  margin: 130px 0 0 0;-webkit-tap-highlight-color: transparent;
 }
 .profile-top{
   height: 85vh;

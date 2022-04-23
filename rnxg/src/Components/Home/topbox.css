@@ -100,7 +100,8 @@ height: 90%;}
     color: #fff;
 }
     .mainbutton button {
-        
+        -webkit-tap-highlight-color: transparent;
+
         width: 200px;
         height: 50px;
         border: none;
@@ -156,16 +157,38 @@ height: 90%;}
     height: 17vh;
 }
 
-
-      }     
-       @media screen and (max-width: 1024px) {
 .topbox-content p{
-    font-size: 55px;
+    font-size: 65px;
+}
+      }     
+       @media screen and (max-width: 1180px) {
+.topbox-content p{
+    font-size: 50px;
     margin: 115px 0 0 0;
+}.topbox-content h4{
+    font-size: 18px;
+    
 }
 
 
       }
+      @media screen and (max-width: 915px) {
+        .topbox-content p{
+            font-size: 45px;
+            margin: 130px 0 0 0;
+        }
+      }   
+         @media screen and (max-width: 820px) {
+        .topbox-content p{
+            font-size: 40px;
+            margin: 150px 0 0 0;
+        }
+        .topbox-content h4{
+            font-size: 16px;
+            
+        }
+      }
+
       @media screen and (max-width: 768px) {
 
         .topbox-content p {
@@ -176,10 +199,46 @@ height: 90%;}
              font-size: 16px;
              
          } 
+    
         
       }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 728px) {
         .topbox-content p{
+            font-size: 35px;
+            margin: 150px 0 0 0;
+        }
+        .topbox-content h4{
+            font-size: 15px;
+            
+        }
+      }
+      @media screen and (max-width: 636px) {
+        .topbox-content p{
+            font-size: 30px;
+            margin: 170px 0 0 0;
+        }
+        .topbox-content h4{
+            font-size: 14px;
+            
+        }
+      }
+      @media screen and (max-width: 636px) {
+        .topbox-content p{
+            font-size: 27px;
+            margin: 170px 0 0 0;
+        }
+        .topbox-content h4{
+            font-size: 14px;
+            
+        }
+      }
+      @media screen and (max-width: 490px) {
+   
+ 
+        
+        .topbox-content p{
+
+            
             font-size: 40px;
             font-family: 'Roboto', sans-serif;
             font-weight: bold;
@@ -213,8 +272,22 @@ height: 90%;}
                     z-index: 1;
 
                 }
-                .bottom-curve{
+                /* .bottom-curve{
                     height: 0px;
-                }
+                } */
 
       }
+      @media screen and (max-width: 385px) {
+        .topbox-content{
+            top: -10%;
+              } 
+              .topbox-content p {
+                  font-size: 35px;
+              }
+
+      }
+      @media screen and (max-height: 1390px  ) {
+     .topbox-content{
+         /* top: -35%; */
+     }
+    }

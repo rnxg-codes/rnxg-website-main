@@ -16,7 +16,7 @@ align-items: center;
 .E3{
     width: 100%;
     color: #fff;
-    background-color: #1b1b1b;
+    /* background-color: #040d21; */
     margin: 150px 0 0 0;
 }
 .E4{
@@ -46,7 +46,7 @@ align-items: center;
         width: 100%;
     }
 .E4{
-    height: 120vh;
+    height: 140vh;
     justify-content: center;
     align-items: flex-start;
 }

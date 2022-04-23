@@ -20,11 +20,11 @@ export default function Profiles() {
         
         <div className="our-mission">
           <h1>Our Mission</h1>
-          <p>To empower every student to get access to great learning experiences, amazing friends and opportunities.</p>
+          <p>To increase enthusiasm & knowledge towards robotics by providing hands-on & multidisciplinary collaborative experience in mechanics, electronics, designing & programming, with all departments working in symphony to create marvellous projects.</p>
         </div>
         <div className="our-vision">
 <h1>Our Vision</h1>
-<p>To build the world's most inclusive online university for learning real life skills and networking with the smartest people.</p>
+<p>We provide an open platform for students in the institute who wish to advance in the technological world. We integrate technology to tackle real-world challenges.</p>
         </div>
       </div>
       <div className="profile-down">
@@ -46,7 +46,10 @@ export default function Profiles() {
   })}
         </div>
       </div>
-     <Footer/>     
+      <div className="E4">
+       <Footer/>     
+      </div>
+      
     </div>
 
 

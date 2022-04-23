@@ -1,5 +1,5 @@
 .main-events{
-    background-color: #141414;
+    background-color: #040D21;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 
 .Events-top{
     width: 80%;
-   height: 100vh;
+   height: 75vh;
 display: flex;
 align-items: center;
 justify-self: center;
@@ -36,24 +36,29 @@ color: white;
     font-weight: 500;
     }
 .Events-top-rig h2 span{
-color: #FE6C3E;
+    background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
 }
 .Events-top-rig p{
     display: flex;
     flex-direction: column;
     width: 580px;
     font-family: Roboto;
-
+color: #8193b2;
 }
 .Events-top-rig button{
 width: 210px;
-height: 60px;
-border-radius: 40px;
+height: 50px;
+border-radius: 10px;
 font-size: 20px;
 font-weight: 600;
-background-color: #5D76FF;
-color: white;
+background-color: #fff;
+color: black;
 border: none;
+cursor: pointer;
 }
 .Events-top-rig button span{
     position: relative;
@@ -85,8 +90,14 @@ border: none;
   width: 900px;
   font-size: 20px;
   margin: -7px 0 0 0;
+  color: #8193b2;
 }
 .Events-bet-top h1{
+    background: -webkit-linear-gradient(-70deg, #3bf0e4 0%, #bca1f7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
 font-weight: 500;
   font-size: 35px;
 }
@@ -136,8 +147,13 @@ font-weight: 500;
     justify-content: space-evenly;
 }
 .time p{
-    color: #FE8450;
+    background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
     font-size: 14px;
+    font-weight: 500;
 }
 .time-share button {
     width: 40px;
@@ -203,21 +219,33 @@ font-weight: 500;
     z-index: 1;
     background-color: #141414;
 }
+.event-bot-top h1{
+        background: -webkit-linear-gradient(-70deg, #3bf0e4 0%, #bca1f7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+}
 .event-bot-top button {
     width: 200px;
     height: 40px;
     font-size: 16px;
-    border: 2px solid white;
+    border: 2px solid #8193b2;
     border-radius: 30px;
     background-color: transparent;
-    color: white;
+    color: #8193b2;
     margin: 10px 0 5px 0;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .labels{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 90%;
+    width: 50%;
     height: 10vh;
     justify-content: space-evenly;
 }
@@ -233,7 +261,7 @@ font-weight: 500;
    display: flex;
    flex-direction: column;
     width: 327px;
-    height: 336px;
+    height: 356px;
     
 
 }
@@ -250,8 +278,8 @@ cursor: pointer;
 height: 50px;
 border-radius: 30px;
 background-color: transparent;
-color: white;
-border: 1px solid rgb(177, 177, 177);
+color: #8193b2;
+border: 2px solid #8193b2;
 font-weight: 600;
 display: flex;
 justify-content: center;
@@ -288,13 +316,17 @@ align-items: center;
         width: 90px;
         height: 40px;
         font-size: 10px;
-
+cursor: pointer;
     }
     .event-bot-top{
-      height: 450px;
+
+      height: 30vh;
     }
     .Events-top{
         width: 90%;
         height: 80vh;
+    }
+    .Events-Bottom{
+        height: 160vh;
     }
 }
