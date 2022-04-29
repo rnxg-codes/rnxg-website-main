@@ -15,7 +15,7 @@ align-items: flex-start;
 }
 .Rnxg h1{
 
-  background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
+  background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,8 +34,13 @@ width: 70%;
   padding: 0;
 }
 .club li{
- list-style: none;
+   list-style: none;
+}
+.club li a{
+  text-decoration: none;
+
  line-height: 40px;
+ color: #fff;
 }
 .club h1 {
   font-weight: 400;
@@ -63,7 +68,12 @@ width: 70%;
   list-style: none;
   line-height: 40px;
   
+}.other-links li a{
+  list-style: none;
+  text-decoration: none;
+color: #fff;  
 }
+
 .contact-us{
   align-items: flex-start;
   display: flex;
@@ -83,6 +93,7 @@ width: 70%;
   font-weight: 600;
 }
 .icons{
+  -webkit-tap-highlight-color: transparent;
 
   display: flex;
   width: 100%;
@@ -98,6 +109,10 @@ width: 70%;
   justify-content: center;
   align-items: center;
   background-color: #25262A;
+}
+.icons button:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
 }
 .icons  button  a{
   width: 40px;
@@ -119,6 +134,7 @@ width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .go-top {
 
@@ -274,7 +290,7 @@ font-size: 15px;
   font-size: 30px;
 }
 .contact-us p {
-  margin: 0;
+  margin: 0 0 15px 0;
 }
 .icons{
   /* margin: 0 0 0 0; */

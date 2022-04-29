@@ -12,11 +12,12 @@ align-items: center;
 }
 .Project-top{
 width: 90%;
+height: 100vh;
 }
 .project-top-left{
     color: white;
     width: 100%;
-    height: 75vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,10 +76,13 @@ margin: 0;
     justify-content: space-between;
     
 }
+
 .project-title h4{
     margin-bottom: 0;
 }
 .projectss{
+    -webkit-tap-highlight-color: transparent;
+
     width: 281px;
     height: 374px;
     display: flex;
@@ -152,6 +156,6 @@ font-weight: 400;
         width: 70%;
     }
     .project-top-left{
-        height: 88vh;
+        height: 100vh;
     }
 }

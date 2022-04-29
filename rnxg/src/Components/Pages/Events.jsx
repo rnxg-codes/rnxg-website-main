@@ -41,7 +41,7 @@ export default function Events() {
         <div className="Events-bet-down">
 <div className="event-card">
     <div className="prewiew">
-<img src="https://alifeofproductivity.com/wp-content/uploads/2013/10/bill-gates-at-ted-talks-education.jpg" alt="" />
+<img  src="https://ik.imagekit.io/wqweoudym/rmageddonlogoB_ujAIM1sFq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651256594470" alt="" />
     </div>
     <div className="info">
 <h3>Rmageddon(2022)</h3>
@@ -64,12 +64,12 @@ export default function Events() {
         <div className="event-bot-top">
             <h1><center>If you missed something, access it right here</center></h1>
 
-            <div className="labels">
+            {/* <div className="labels">
                 <button>RMAGEDDON 2020</button>
                 <button>Technovation</button>
 
               
-            </div>
+            </div> */}
         </div>
         <div className="old-events">
 

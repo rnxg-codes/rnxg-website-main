@@ -11,10 +11,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 125vh;
  color: white;
  font-family: Roboto;
  
+}
+.profile-top p{
+  color: #8193b2;
 }
 .profile-top img{
 width: 100%;
@@ -30,18 +33,18 @@ width: 100%;
 .profile-top p{
 line-height: 25px;
   width: 95%;
-  color: #8193b2;
+  /* color: #8193b2; */
 }
 .profile-between{
   width: 75%;
   display: flex;
   flex-direction: column;
   color: white;
-  height: 100vh;
+  height: 130vh;
   justify-content: space-around;
   
 }.profile-between h1{
-  background: -webkit-linear-gradient(-70deg, #3bf0e4 0%, #bca1f7 100%);
+  background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -51,6 +54,37 @@ margin: 60px 432px 0px 0;
 
 
 }
+.top-prof-bet{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bot-prof-bet{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.personal-info{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.personal-info p{
+  margin: 0;
+  color: white;
+  font-size: 12px;
+
+  }.personal-info h4{
+  margin: 0;
+  color: white;
+  font-size: 15px;
+  
+  }
 .our-mission{
 width: 700px;
 height: 263px;
@@ -65,7 +99,7 @@ align-self: flex-end;
 .profile-between p {
   font-size: 20px;
   width: 600px;
-  color: #8193b2;
+  /* color: #8193b2; */
 }
 .our-vision{
   width: 700px;
@@ -99,9 +133,9 @@ align-self: flex-end;
 
 .linkdin button{
   position: absolute;
-  width: 40px;
+  /* width: 40px;
   height: 40px;
-  border-radius: 100%;
+  border-radius: 100%; */
   border: none;
   background-color: #6CA2BB;
   z-index: 1;
@@ -115,15 +149,16 @@ align-self: flex-end;
   display: flex;
   align-items: center;
   top: 0;
+  margin-left: 10px;
 }
 
 .gallery-of-team{
 display: flex;
   flex-direction: row;
-  padding: 10px;
+
  justify-self: flex-start;
 flex-wrap: wrap;
-width: 50%;
+width: 65%;
 position: relative;
 
 }
@@ -136,27 +171,92 @@ position: relative;
 }
 .profile-card{
   width: 240px;
-  height: 297px;
+  height: 310px;
   display: flex;
   flex-direction: column;
   background-color: #24201E;
   color: white;
   align-items: center;
-  margin: 0 13px 13px 0px;
+  margin: 0 50px 35px 0px;
   cursor: pointer;
 }
 .profile-card img{
   object-fit: cover;
   width: 240px;
+  height: 250px;
   filter: grayscale(100%);
+transition: 0.3s;
+z-index: 10;
+}
 
+.profile-card img:hover{
+  transition: 0.3s;
+
+  filter: none;
+
+}
+@media screen and (max-width: 1400px) {
+  .profile-between h1 {
+
+    margin: 60px 383px 0px 0;
+}
+.profile-between p {
+  font-size: 20px;
+  width: 600px;
+  margin: 10px 0 0 10px;
+}
+.top-prof-bet img{
+  height: 150px;
+    width: 150px;
+}
+
+}
+@media screen and (max-width: 940px) {
+.our-mission{
+  width: 470px;
+  height: 185px;
+
+}
+.top-prof-bet img{
+  width: 80px;
+  height: 80px;
+  }
+  .bot-prof-bet img{
+    width: 80px;
+  height: 80px;
+  }
+.our-vision{
+  width: 470px;
+height: 150px;
+}
+.profile-between h1 {
+  margin: 20px 239px 0px 0;
+}
+.profile-between p {
+  font-size: 14px;
+  width: 430px;
+  
+  margin: 10px 0 0 10px;
+}
+}
+@media screen and (max-width: 650px) {
+  .top-prof-bet img{
+    display: none;
+    
+    }
+    .bot-prof-bet img{
+      display: none;
+    
+    }
 }
 @media screen and (max-width: 480px) {
 
 .profile-between{
   display: flex;
   flex-direction: column;
-height: 70vh;
+  width: 85%;
+  height: 100vh;
+
 }
 .our-mission{
   width: 370px;
@@ -185,8 +285,8 @@ justify-content: center;
   margin: 0 0 0 0;
 }
 .gallery-of-team{
-  padding: 0;
-  margin: 0 0 0 50px;
+  
+  margin: 0 0 0 75px;
 }
 .profile-down{
   justify-content: space-around;
@@ -195,14 +295,14 @@ justify-content: center;
 
 }
 .profile-card img{
-  width: 200px;
+  width: 180px;
 }
 .profile-card{
   -webkit-tap-highlight-color: transparent;
 
-
-  width: 230px;
-  height: 260px;
+  margin: 0 0px 35px 0px;
+  width: 200px;
+  height: 316px;
 }
 .linkdin button {
   margin: 130px 0 0 0;-webkit-tap-highlight-color: transparent;
@@ -212,5 +312,24 @@ justify-content: center;
 }
 .profile-top img {
  display: none;
+}
+
+
+
+.top-prof-bet img{
+display: none;
+
+}
+.bot-prof-bet img{
+  display: none;
+
+}
+.top-prof-bet p{
+  width: 90%;
+  font-size: 13px;
+}
+.bot-prof-bet p{
+  width: 90%;
+  font-size: 13px;
 }
 }

@@ -46,8 +46,16 @@ align-items: center;
         width: 100%;
     }
 .E4{
-    height: 140vh;
+    height: 108vh;
     justify-content: center;
     align-items: flex-start;
+}
+  }
+  @media screen and (max-width: 380px) {
+
+
+.E4{
+    height: 140vh;
+
 }
   }

@@ -23,9 +23,11 @@ export default function Mainbox() {
  <>
  <div className="bg">
    <div className="rgmd">
-<h1><center>Why RNXG?!</center></h1>
-<p><center>Members of the RNXG, regardless of their fields, collaborate as a team to generate multidisciplinary technical expertise. Robotics for Next Generation, or RNXG, is the greatest platform for working on various issue statements and developing the best solutions for them. Artificial Intelligence, Machine Learning, Deep Learning, Embedded Systems, IoT, VLSI, Robotics, and other emerging technologies are explored in RNXG.</center></p>
-<span><center>The results? Safer, more efficient and more predictable operations.</center></span>
+     <h1>Why RNXG?!</h1>
+<center><p>Members of the RNXG, regardless of their fields, collaborate as a team to generate multidisciplinary technical expertise. Robotics for Next Generation, or RNXG, is the greatest platform for working on various issue statements and developing the best solutions for them. Artificial Intelligence, Machine Learning, Deep Learning, Embedded Systems, IoT, VLSI, Robotics, and other emerging technologies are explored in RNXG.</p>
+</center>
+<center><span>The results? Safer, more efficient and more predictable operations.</span>
+</center>
    </div>
    <div className="lfmd">
      <div className="video">
@@ -57,9 +59,9 @@ export default function Mainbox() {
    <h1>Our Team</h1>
  <Slider/>
  </div> */}
- <div className="about">
-   <div className="em1">
-        <h1>Why our members love us</h1>
+ <div className="about" >
+   <div className="em1"id="about-card">
+        <h1 >Why our members love us</h1>
    <p>See more on our Wall of love </p>
    </div>
 
@@ -73,6 +75,8 @@ export default function Mainbox() {
 
 
  </div>
+ 
+ 
  </div>
 
  </>

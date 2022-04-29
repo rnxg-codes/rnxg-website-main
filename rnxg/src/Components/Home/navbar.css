@@ -12,6 +12,7 @@
   z-index: 10;
 }
 .navbar_11{
+  position: absolute;
   display: flex;
     width: 100%;
     align-items: center;justify-content: center;
@@ -73,11 +74,12 @@ transition: 0.3s ease-in-out;
   position: relative;
   width: 54px;
   height: 26px;
-  left: -10px;
+  left: -20px;
 display: flex;
 flex-direction: column;
 overflow: hidden;
 cursor: pointer;
+-webkit-tap-highlight-color: transparent;
 
 }
 .bar1,.bar3{
@@ -152,7 +154,7 @@ cursor: pointer;
     height: 100%;
     width: 300px;
     display: flex;
- background-color: #434242;
+ background-color: #040D21;
     z-index: 10;
    transition: 0.5s ;
     left:-300px;
@@ -164,7 +166,8 @@ cursor: pointer;
     justify-content: center;
     width: 300px;
     height: 500px;
-  
+      box-shadow: rgba(242, 242, 245, 0.356) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
     
 }
 .wrapper ul {
@@ -205,7 +208,7 @@ transition:  ease-in;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
      color: #fff;
-     background-color: #434242;
+     /* background-color: #434242; */
     align-items: center;
     -webkit-tap-highlight-color: transparent;
 

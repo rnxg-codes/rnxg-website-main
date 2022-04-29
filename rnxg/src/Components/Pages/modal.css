@@ -9,7 +9,6 @@ align-items: center;
     background-color: #fff;
     border-radius: 10px;
     justify-content: space-between;
-    
 }
 .modal-left{
     
@@ -31,11 +30,14 @@ border-top-left-radius: 10px;
     align-items: center;
     overflow-y: scroll;
 }
+.example::-webkit-scrollbar {
+    display: none;
+  }
 .modal-right hr{
     width: 10%;
     height: 0.5px;
     background-color: rgb(148, 148, 148);
-    border-radius: 100%;
+    border-radius: 50px;
 }
 .title-modal{
     display: flex;
@@ -51,4 +53,52 @@ border-top-left-radius: 10px;
     border-radius: 100%;
     height: 35px;
     width: 35px;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+.main-container-modal{
+    flex-direction: column;
+    width: 90vw;
+    height:70vh ;
+    justify-content: flex-start;
+}
+.modal-left img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    }
+    .modal-left{
+    
+        width: 100%;
+       }
+       .modal-right{
+        width: 98%;
+        padding: 0px 0px 0px  0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+    }
+    .modal-right p{
+        width: 90%;
+    }
+    .title-modal button{
+        /* margin-right: 10px; */
+       
+    }
+    .title-modal{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 400px) {
+
+    .project-top-left p {
+        width: 298px;
+    }
+
+
 }

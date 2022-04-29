@@ -6,6 +6,7 @@ import Footer from './Footer';
 
 export default function Profiles() {
   console.log(User)
+
     return (<>
  
     <div className="profiles-main">
@@ -17,30 +18,40 @@ export default function Profiles() {
 
       </div>
       <div className="profile-between">
+        <div className="top-prof-bet">
+
         
+        <img width={200} height={200} src="https://ik.imagekit.io/wqweoudym/target_Cj10lQURn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651259877569" alt="" />
         <div className="our-mission">
+          
           <h1>Our Mission</h1>
           <p>To increase enthusiasm & knowledge towards robotics by providing hands-on & multidisciplinary collaborative experience in mechanics, electronics, designing & programming, with all departments working in symphony to create marvellous projects.</p>
-        </div>
-        <div className="our-vision">
+        </div></div>
+        <div className="bot-prof-bet">
+                <div className="our-vision">
 <h1>Our Vision</h1>
 <p>We provide an open platform for students in the institute who wish to advance in the technological world. We integrate technology to tackle real-world challenges.</p>
         </div>
+                  <img width={200} height={200} src="https://ik.imagekit.io/wqweoudym/shuttle_9IUnMb4Fx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651260169056" alt="" />
+
+        </div>
+
       </div>
       <div className="profile-down">
       <div className="tiltee"><h1>The <span>team</span> that makes it all possible.</h1></div>  
         <div className="gallery-of-team">
         {User.map((User)=>{
-      return <div className="profile-card">
+      return <a href={User.LinkedIn}>
+      <div className="profile-card" >
         <div className="linkdin">
-<button><a href= {User.LinkedIn}><svg stroke="#fff" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></button>
         <div className="avatar">
           <img src={User.image} alt="" />
         </div>
 <div className="personal-info">
   <h4>{User.Name}</h4>
+  <p>{User.Position}</p>
 </div></div>
-      </div>
+      </div></a>
 
       
   })}
