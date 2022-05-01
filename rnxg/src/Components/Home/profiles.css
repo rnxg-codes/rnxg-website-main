@@ -255,7 +255,7 @@ height: 150px;
   display: flex;
   flex-direction: column;
   width: 85%;
-  height: 100vh;
+  height: 65vh;
 
 }
 .our-mission{
@@ -326,10 +326,10 @@ display: none;
 }
 .top-prof-bet p{
   width: 90%;
-  font-size: 13px;
+  font-size: 14px;
 }
 .bot-prof-bet p{
   width: 90%;
-  font-size: 13px;
+  font-size: 14px;
 }
 }

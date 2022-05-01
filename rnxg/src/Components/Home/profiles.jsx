@@ -25,12 +25,12 @@ export default function Profiles() {
         <div className="our-mission">
           
           <h1>Our Mission</h1>
-          <p>To increase enthusiasm & knowledge towards robotics by providing hands-on & multidisciplinary collaborative experience in mechanics, electronics, designing & programming, with all departments working in symphony to create marvellous projects.</p>
+          <p><center>To increase enthusiasm & knowledge towards robotics by providing hands-on & multidisciplinary collaborative experience in mechanics, electronics, designing & programming, with all departments working in symphony to create marvellous projects.</center></p>
         </div></div>
         <div className="bot-prof-bet">
                 <div className="our-vision">
 <h1>Our Vision</h1>
-<p>We provide an open platform for students in the institute who wish to advance in the technological world. We integrate technology to tackle real-world challenges.</p>
+<p><center>We provide an open platform for students in the institute who wish to advance in the technological world. We integrate technology to tackle real-world challenges.</center></p>
         </div>
                   <img width={200} height={200} src="https://ik.imagekit.io/wqweoudym/shuttle_9IUnMb4Fx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651260169056" alt="" />
 

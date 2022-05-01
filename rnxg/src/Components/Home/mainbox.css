@@ -10,12 +10,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-background-color: #fff;
+/* background-color: #fff; */
 color: white;
 }
 .svg{
     /* margin-top: 100px; */
-    background-color: #fff;
+    background-color: #051437;
     /* height: 45vh; */
     /* display: none; */
     margin: 0 0px -5% 0px;
@@ -25,9 +25,9 @@ width: 50%;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: 0 0px 30px 45px;
+margin: 50px 0px 30px 45px;
 }.rgmd h1{
-    background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -42,7 +42,7 @@ margin: 0;
 }.rgmd p{
 font-size: 16px;
 /* width: 70%; */
-color: black;
+
 }.rgmd span{
 font-size: 18px;
 width: 70%;
@@ -101,6 +101,7 @@ background-color: #040d21;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 30px 0 0 0;
 }
 #lol1 {
 width: 20%;
@@ -283,6 +284,8 @@ height: 15%;
     flex-direction: column-reverse;
     justify-content: center;
     /* align-items: flex-start; */
+    
+
   }
   .rgmd h1{
     display: flex;
@@ -328,7 +331,7 @@ height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
 }
 

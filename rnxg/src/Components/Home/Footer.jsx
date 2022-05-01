@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-router-dom';
+import ScrollToTop from "./ScrolltoTop";
 
 
 export default function Footer() {
@@ -16,18 +18,83 @@ export default function Footer() {
   <div className="club">
     <h1>Club</h1>
     <ul>
-<li><a href="/profiles">About</a></li>
-<li><a href="/Privicy">Privicy Policy</a></li>
-<li><a href="/Terms">Terms & Conditions</a></li>
+<li>
+<Link
+    activeClass="active"
+    to={{pathname:"/profiles"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">About</a> </Link>
+  
+  </li>
+<li>
+<Link
+    activeClass="active"
+    to={{pathname:"/Privicy"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">Privicy</a> </Link>
+  
+  
+  </li>
+<li>
+<Link
+    activeClass="active"
+    to={{pathname:"/Terms"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">Terms & Conditions</a> </Link>
+  
+  
+  </li>
 </ul>
   </div>
   <div className="other-links">
     <h1>Other-links</h1>
     <ul>
 
-    <li><a href="/events">Events</a></li>
-    <li><a href="/Projects">Projects</a></li>
-    <li><a href="/#about-card">Wall of Love</a></li>
+    <li>
+      
+      <Link
+    activeClass="active"
+    to={{pathname:"/events"}}
+  
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">Events</a></Link></li>
+    <li>
+    <Link
+    activeClass="active"
+    to={{pathname:"/projects"}}
+  
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">Projects</a></Link>
+      
+      
+      </li>
+    <li>
+
+
+<a href="/#about-card">Wall of Love</a>
+
+
+      
+      
+      </li>
 </ul>
   </div>
   <div className="contact-us">
@@ -57,17 +124,11 @@ export default function Footer() {
   <svg stroke="currentColor" fill="#fff" stroke-width="0" viewBox="0 0 512 512" focusable="false" class="chakra-icon css-1tfg20n" aria-hidden="true" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
   </a>
   </button>
-    <div className="go-top">
-    <Link
-    activeClass="active"
-    to="top1"
-    spy={true}
-    smooth={true}
-    offset={-70}
-    duration={500}
-> <button>
+    <div className="go-top" >
+
+ <button onClick={Scroll}>
     <svg viewBox="0 0 24 24" focusable="false" class="chakra-icon css-onkibi" aria-hidden="true"><path fill="#fff" d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path></svg>
-    </button></Link>
+    </button>
   </div>
 </div>
   </div>
@@ -78,5 +139,8 @@ export default function Footer() {
  );
 };
     
-
+const Scroll=()=>{
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 

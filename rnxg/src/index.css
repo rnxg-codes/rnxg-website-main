@@ -11,8 +11,29 @@ body {
   
   -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: geometricPrecision;
+  /* width */
+  overflow: overlay;
+}
+::-webkit-scrollbar {
+  width: 5px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+ 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(90, 87, 105, 0.537); 
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

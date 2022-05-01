@@ -17,7 +17,9 @@ align-items: center;
     width: 100%;
     color: #fff;
     /* background-color: #040d21; */
-    margin: 150px 0 0 0;
+    background-color: #051437;
+    margin: -5px 0 0 0;
+    /* margin: 150px 0 0 0; */
 }
 .E4{
     width: 100%;
@@ -28,7 +30,7 @@ align-items: center;
     align-items: center;
 }
 @media screen and (max-width: 1024px) {
-  .E3 {margin: 0 0 0 0;} 
+ 
 }
 @media screen and (max-width: 768px) {
 .E4{
@@ -42,7 +44,7 @@ align-items: center;
 @media screen and (max-width: 480px) {
 
     .E3{
-        margin: -50px 0 0 0;
+        /* margin: -50px 0 0 0; */
         width: 100%;
     }
 .E4{

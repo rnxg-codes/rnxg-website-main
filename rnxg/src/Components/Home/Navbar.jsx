@@ -1,7 +1,8 @@
 import React from 'react';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 import lo from './111.png'
-import { Link, animateScroll as scroll } from "react-scroll";
+import {  animateScroll as scroll } from "react-scroll";
 // import { Routes, Route, Link } from "react-router-dom";
 export default function Navbar() {
 
@@ -44,13 +45,51 @@ export default function Navbar() {
 
   <div className="nav-main">
         <div className="log">
-         <a href="/"><img  src={lo} alt="" /></a> 
+        <Link
+    activeClass="active"
+    to={{pathname:"/"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>           <h5>Rnxg</h5></Link>
+ 
           </div>
         <ul>
            {/* <li> <a href="/">Home</a></li> */}
- <li> <a href="/projects">Projects</a></li>
- <li> <a href="/events">Events</a></li>
-  <li> <a href="/profiles">About</a></li>
+ <li> 
+ <Link
+    activeClass="active"
+    to={{pathname:"/projects"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>
+  Projects</Link></li>
+  <li>  <Link
+    activeClass="active"
+    to={{pathname:"/events"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>   Events</Link></li>
+
+  <li> 
+  <Link
+    activeClass="active"
+    to={{pathname:"/profiles"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>   About</Link>
+    </li>
            
           
           
@@ -70,13 +109,49 @@ export default function Navbar() {
 <div className="wrapper">
   <ul>
     <li className="item">
-      <a href="/">     Home</a></li>
+    <Link
+    activeClass="active"
+    to={{pathname:"/"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>  <a href="">     Home</a> </Link>
+      </li>
     <li className="item">
-      <a href="/projects">Projects</a></li>
+    <Link
+    activeClass="active"
+    to={{pathname:"/projects"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>  <a href="/projects">Projects</a>  </Link>
+     </li>
     <li className="item">
-    <a href="/profiles">About</a></li>
+    <Link
+    activeClass="active"
+    to={{pathname:"/profiles"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">About</a> </Link>
+    </li>
     <li className="item">
-     <a href="/events"> Events</a></li>
+    <Link
+    activeClass="active"
+    to={{pathname:"/events"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">Events</a> </Link>
+    </li>
    
 
   

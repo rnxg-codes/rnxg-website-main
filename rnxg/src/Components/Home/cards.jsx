@@ -1,6 +1,6 @@
 import React from 'react'
 import  './cards.css'
-
+import alum from './alum'
 export default function Cards() {
   return (
    

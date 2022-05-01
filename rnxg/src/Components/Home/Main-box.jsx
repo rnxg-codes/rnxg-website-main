@@ -32,7 +32,7 @@ export default function Mainbox() {
    <div className="lfmd">
      <div className="video">
        <video  loop autoPlay muted id='video1' >
-<source src={video} type="video/mp4"/>
+<source src="https://ik.imagekit.io/wqweoudym/rnxglogo.803a96aede27aa31bf12_Ebn6ZrEkY.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1651307175453" type="video/mp4"/>
 </video>
      </div>
 
@@ -49,9 +49,9 @@ export default function Mainbox() {
  <div className="fg">
  <h1> Our Participation</h1>
  <div className="pro">
-   <img id="lol1" src="https://miro.medium.com/max/1400/0*r5nr0xUKZkMFEV0a.png" alt="" />
-   <img  id="lol2" src="https://newsonair.com/robocon2022/wp-content/uploads/sites/24/2021/10/robocon-logo-v2-72-ppi-01.png" alt="" />
-   <img  id="lol3"src="https://yt3.ggpht.com/ytc/AKedOLSkaYvbtH1v3mhrrJShlHbcZpBo6efV_QPwqvPX=s900-c-k-c0x00ffffff-no-rj" alt="" />
+   <img id="lol1" src="https://ik.imagekit.io/wqweoudym/0_r5nr0xUKZkMFEV0a_nVDqA3KG1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307021694" alt="" />
+   <img  id="lol2" src="https://ik.imagekit.io/wqweoudym/robocon-logo-v2-72-ppi-01_JpRlY64de.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307038574" alt="" />
+   <img  id="lol3"src="https://ik.imagekit.io/wqweoudym/unnamed_C8NTI3pFc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651307050962" alt="" />
    {/* <img  id="lol4"src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png" alt="" /> */}
  </div>
  </div>

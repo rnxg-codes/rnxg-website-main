@@ -35,9 +35,17 @@
   /* border-radius: 100%; */
  
 }
-
-
-
+.log a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.log h5{
+   margin: 0 0 0 7vw;
+   
+}
 .nav-main ul{
   position: relative;
   display: flex;
@@ -82,7 +90,7 @@ cursor: pointer;
 -webkit-tap-highlight-color: transparent;
 
 }
-.bar1,.bar3{
+.bar1{
   margin: auto;
   position: relative;
   width:30px;
@@ -93,12 +101,24 @@ cursor: pointer;
   border-radius: 5px;
   transition: 0.5s;
  
+}.bar3{
+  margin: auto;
+  position: relative;
+  width:15px;
+  height: 3px;
+  background: #fff;
+  animation: gradient 5s ease infinite;
+  background-size: 400% 400%;
+  border-radius: 5px;
+  transition: 0.5s;
+ 
 }
+
 
 .bar2{
   margin: auto;
   position: relative;
-  width:25px;
+  width:22px;
   height: 3px;
   background: #fff;
   animation: gradient 5s ease infinite;
@@ -159,6 +179,7 @@ cursor: pointer;
    transition: 0.5s ;
     left:-300px;
     overflow-y: hidden;
+
 }
 
 .wrapper{
@@ -166,7 +187,6 @@ cursor: pointer;
     justify-content: center;
     width: 300px;
     height: 500px;
-      box-shadow: rgba(242, 242, 245, 0.356) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 
     
 }

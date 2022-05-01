@@ -15,8 +15,13 @@ export default function Topbox() {
 <div class="box-main">
            
            <p class="text-big">
-           Where the world builds&#160;
-        <span class="text-change" data-wait="2500" data-words='["Software&#160;","Developer&#160;","Innovaters&#160;"]'> </span></p>
+           Where we build&#160;
+           <div class="mask">
+    <span data-show>Developer</span>
+    <span>Innovater</span>
+    <span>Creative</span>
+    <span>Rnxgians</span>
+  </div></p>
 
     
      
@@ -50,80 +55,42 @@ export default function Topbox() {
   {/* <source src={Video} type="video/mp4"/> */}
   </video>
     <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="" />
+
+
+
 </div>
 
   </div>
 
-  <div className="bottom-curve">
+<div className="bottom-curve">
+
+<svg style={{transform:"rotate(180deg)"}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#040D21" fill-opacity="1" d="M0,96L80,122.7C160,149,320,203,480,186.7C640,171,800,85,960,69.3C1120,53,1280,107,1360,133.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+</svg>
 </div>
 
 </div>
   </>
 }
+window.addEventListener('DOMContentLoaded', (event) => {
+  setInterval(function () {
+    const show = document.querySelector('span[data-show]')
+    const next = show.nextElementSibling || document.querySelector('span:first-child')
+    const up = document.querySelector('span[data-up]')
+    
+    if (up) {
+      up.removeAttribute('data-up')
+    }
+    
+    show.removeAttribute('data-show')
+    show.setAttribute('data-up', '')
+    
+    next.setAttribute('data-show', '')
+  }, 2500)
+});
 
-const TypeWriter = function(txtElement, words, wait = 3000){
-  this.txtElement = txtElement;
-  this.words = words;
-  this.txt = '';
-  this.wordIndex = 0;
-  this.wait = parseInt(wait,10);
-  this.type();
-  this.isDeleting = false;
-  }
-  // Type Method
-  TypeWriter.prototype.type = function(){
-      // current index of word
-      const current =this.wordIndex % this.words.length;
-      // Get full text of current  word
-      const fulltxt = this.words[current];
-     // Check if deleting 
-     if(this.isDeleting){
-         //Remove a character
-         this.txt = fulltxt.substring(0, this.txt.length - 1);
-     }else{
-         // Add a character
-         this.txt = fulltxt.substring(0, this.txt.length + 1);
-     }
-  
-     // Inset Txt into Element
-  this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
-  
-  // Type speed
-  let typeSpeed = 50;
-  
-  if(this.isDeleting){
-  typeSpeed =typeSpeed / 2;
-  }
-  // if word is complete 
-  if(!this.isDeleting && this.txt === fulltxt)
-  {
-      // Make a pause at end
-  typeSpeed = this.wait;
-  // set delete is true
-  this.isDeleting = true;
-  }else if(this.isDeleting && this.txt ===''){
-      this.isDeleting = false;
-      //Move to next word
-      this.wordIndex++;
-      // Pause before start typing
-      typeSpeed = 500;
-  }
-  
-  
-      setTimeout(() => this.type() , typeSpeed)
-  }
-  // Init on DOM Load
-  document.addEventListener('DOMContentLoaded', init);
-  
-  
-  // Init App
-  function init() {
-      const txtElement = document.querySelector('.text-change');
-      const words =JSON.parse(txtElement.getAttribute('data-words'));
-      const wait = txtElement.getAttribute('data-wait');
-      // Init Typewriter
-      new TypeWriter(txtElement, words, wait);
-  }
+
+
   
 
   // video delay
