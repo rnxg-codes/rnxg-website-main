@@ -9,7 +9,6 @@ import Project from './Components/Pages/Project';
 import Terms from './Components/Pages/terms';
 import Privicy from './Components/Pages/Privicy';
 
-import {BarLoader} from 'react-spinners'
 import Loader from './Components/Pages/loader';
 import ScrollToTop from './Components/Home/ScrolltoTop';
 

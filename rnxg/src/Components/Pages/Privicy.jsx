@@ -3,6 +3,7 @@ import React from 'react'
 export default function Privicy() {
   return (
     <>
+    <div style={{padding:"20px"}} className="privicy">
     <h1>Privacy Policy for Rnxg</h1>
 
 <p>At Rnxg, accessible from https://rnxgsggs.co.in/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Rnxg and how we use it.</p>
@@ -81,6 +82,6 @@ export default function Privicy() {
 
 <p>Rnxg does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
     
-    </>
+    </div></>
   )
 }

@@ -17,10 +17,10 @@ export default function Topbox() {
            <p class="text-big">
            Where we build&#160;
            <div class="mask">
-    <span data-show>Developer</span>
-    <span>Innovater</span>
-    <span>Creative</span>
-    <span>Rnxgians</span>
+    <span data-show>Developers</span>
+    <span>Innovators</span>
+    <span>Creators</span>
+    <span>RNXGians</span>
   </div></p>
 
     

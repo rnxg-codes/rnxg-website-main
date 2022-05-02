@@ -53,7 +53,7 @@ export default function Navbar() {
     smooth={true}
     offset={-70}
     duration={500}
->           <h5>Rnxg</h5></Link>
+>           <h5>RNXG</h5></Link>
  
           </div>
         <ul>

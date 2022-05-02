@@ -51,7 +51,7 @@ export default function Mainbox() {
  <div className="pro">
    <img id="lol1" src="https://ik.imagekit.io/wqweoudym/0_r5nr0xUKZkMFEV0a_nVDqA3KG1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307021694" alt="" />
    <img  id="lol2" src="https://ik.imagekit.io/wqweoudym/robocon-logo-v2-72-ppi-01_JpRlY64de.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307038574" alt="" />
-   <img  id="lol3"src="https://ik.imagekit.io/wqweoudym/unnamed_C8NTI3pFc.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651307050962" alt="" />
+   <img  id="lol3"src="https://ik.imagekit.io/wqweoudym/SIH_2018_logo_L2YaKxpBy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651482769977" alt="" />
    {/* <img  id="lol4"src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png" alt="" /> */}
  </div>
  </div>
@@ -67,10 +67,7 @@ export default function Mainbox() {
 
     <div className="art">
    <Cards/>
-   <a>
-      <Cards/>
-   <Cards/>  
-   </a>
+
 </div>
 
 

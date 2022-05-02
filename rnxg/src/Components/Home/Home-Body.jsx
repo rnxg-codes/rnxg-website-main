@@ -25,9 +25,14 @@ export default function HomeBody() {
   <Footer/>
 </div>
 
-{/* <div className="E5">
-<Events/>
-</div> */}
+<div className="E5">
+<div className="container3">
+  <a href="https://www.sggs.ac.in/">
+  <img width={320} height={60} src="https://www.sggs.ac.in/uploads/logos/sggs2.png" alt="" />
+</a>
+ <span>© 2022, Rnxg Pvt. Ltd. All Rights Reserved.</span>
+</div>
+</div>
 
 
       

@@ -2,3 +2,6 @@
     display: flex;
     flex-direction: column;
 }
+.Main-Term{
+    padding: 15px;
+}

@@ -28,6 +28,21 @@ align-items: center;
     background-color: #141414;
     height: 85vh;
     align-items: center;
+    
+}
+.E5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F8FA;
+}
+.container3{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F8FA;
 }
 @media screen and (max-width: 1024px) {
  
@@ -52,10 +67,15 @@ align-items: center;
     justify-content: center;
     align-items: flex-start;
 }
+.container3 span{
+    display: none;
+}
   }
   @media screen and (max-width: 380px) {
 
-
+    .container3 span{
+        display: none;
+    }
 .E4{
     height: 140vh;
 

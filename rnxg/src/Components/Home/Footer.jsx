@@ -12,7 +12,9 @@ export default function Footer() {
   <div className="Rnxg">
 <h1>Rnxg</h1>
 <p>RNXG that is Robotics for Next Generation provides the best platform to work on different problem statements and to create best solutions for them.</p>
-   <span>© 2022, Rnxg Pvt. Ltd. All Rights Reserved.</span>
+<span>© 2022, Rnxg Pvt. Ltd. All Rights Reserved.</span>
+
+
   </div>  
    
   <div className="club">
@@ -134,7 +136,7 @@ export default function Footer() {
   </div>
 
     </div>
-    
+
     </>
  );
 };
