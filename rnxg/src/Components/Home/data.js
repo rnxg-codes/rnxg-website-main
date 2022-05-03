@@ -18,7 +18,7 @@
         "LinkedIn": "https://www.linkedin.com/in/kulkarnisakshi/",
         "Recent Photograph": "https://drive.google.com/open?id=1aciieKuqY70fKaRuZTDjy1_CtakBGOoU",
                 "image":"https://ik.imagekit.io/wqweoudym/WhatsApp_Image_2022-02-17_at_14.11.53_-_SAKSHI_NITIN_KULKARNI_f8NwnTebH.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1651164443134",
-                "Position":"Co-ordinator"
+                "Position":"Vice-ordinator"
 
       }, {
         "id":"2",
@@ -93,18 +93,7 @@
 
       },
 
-      {
-        "id":"8",
-        "Email Address": "YASH PRAMOD KHOLAPURE",
-        "Name": "Yash Pramod Kholapure",
-        " Email Id": "2019bpr021@sggs.ac.in",
-        "LinkedIn": "https://www.linkedin.com/in/yash-kholapure-144147208/?originalSubdomain=in",
-        "Recent Photograph": "https://drive.google.com/open?id=1wAX1tWjyrC1M04ZVv4A3TCdaojzarlN5",
-                "image":"https://ik.imagekit.io/wqweoudym/IMG_20210121_131437_583_-_YASH_PRAMOD_KHOLAPURE_pbO80kc24.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651164969714",
-                "Position":"Core-Member"
 
-
-      },
       {
         "id":"9",
         "Email Address": "ABHISHEK GANPATRAO KORDE",

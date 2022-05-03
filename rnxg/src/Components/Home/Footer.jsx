@@ -10,7 +10,7 @@ export default function Footer() {
     <>
     <div className="container2">
   <div className="Rnxg">
-<h1>Rnxg</h1>
+<h1>RNXG</h1>
 <p>RNXG that is Robotics for Next Generation provides the best platform to work on different problem statements and to create best solutions for them.</p>
 
 

@@ -93,7 +93,7 @@ cursor: pointer;
   color: #8193b2;
 }
 .Events-bet-top h1{
-    background: -webkit-linear-gradient(-70deg, #3bf0e4 0%, #bca1f7 100%);
+    background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -225,7 +225,7 @@ font-weight: 500;
     background-color: #141414;
 }
 .event-bot-top h1{
-        background: -webkit-linear-gradient(-70deg, #3bf0e4 0%, #bca1f7 100%);
+    background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

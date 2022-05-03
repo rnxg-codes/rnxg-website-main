@@ -1,0 +1,102 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(impact.ttf);
+  }
+
+.registations{
+         
+display: flex;
+flex-direction: column;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    align-items: center;
+    justify-content: flex-start;
+}.registations img{
+   position:fixed;
+    width: 90vw;
+filter: blur(2px);
+    background-repeat: no-repeat;
+}
+
+.regtop h2{
+    font-family: myFirstFont;
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+
+}.regtop  span{
+    background: linear-gradient(90deg ,#CF0211,#680204);
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
+    color: #141414;
+}
+
+
+.regtop {
+height: 10vh;
+display: flex;
+justify-content: center;
+z-index: 1;
+margin-top: 50px;
+}
+.intera{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.info-reg{
+z-index: 1;
+color: #fff;
+display: flex;
+justify-content: flex-end;
+height: 90vh;
+flex-direction: column;
+align-items: center;
+font-family: myFirstFont;
+}
+.info11{
+width: 35%;
+}
+.info11 h2{
+    font-weight: 100;
+color: #9E020B !important;
+
+}
+.info22 h2{
+    font-weight: 100;
+color: #9E020B  !important;
+}
+.info22{
+width: 35%;
+}
+
+
+.register-now {
+    z-index: 1;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-now button{
+width: 200px;
+height: 50px;
+border-radius: 5px;
+font-size: 22px;
+font-weight: 500;
+}
+@media screen and (max-width: 480px) {
+    .intera{
+       margin-left: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+font-size: 15px;
+    }
+
+}
