@@ -40,7 +40,7 @@ export default function Footer() {
     smooth={true}
     offset={-70}
     duration={500}
-> <a href="">Privicy</a> </Link>
+> <a href="">Privacy</a> </Link>
   
   
   </li>

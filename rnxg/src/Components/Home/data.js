@@ -45,8 +45,8 @@
       },
       {
         "id":"4",
-        "Email Address": "VRUSHABH SHASHIKANT BHAGWATKAR",
-        "Name": "Vrushabh Shashikant Bhagwatkar ",
+        "Email Address": "VRUSHABH  BHAGWATKAR",
+        "Name": "Vrushabh  Bhagwatkar ",
         " Email Id": "2019bcs074@sggs.ac.in ",
         "LinkedIn": "https://www.linkedin.com/in/vrushabh-bhagwatkar-656278194",
         "Recent Photograph": "https://drive.google.com/open?id=1u_nBL65nGZvh_rtPHoh0T1PRy1B5k5gO",
@@ -96,8 +96,8 @@
 
       {
         "id":"9",
-        "Email Address": "ABHISHEK GANPATRAO KORDE",
-        "Name": "ABHISHEK GANPATRAO KORDE",
+        "Email Address": "ABHISHEK  KORDE",
+        "Name": "ABHISHEK  KORDE",
         " Email Id": "abhishekkorde31@gmail.com",
         "LinkedIn": " https://www.linkedin.com/in/abhishek-korde-a173aa206",
         "Recent Photograph": "https://drive.google.com/open?id=1DIUFo8D8nkslCYizxRbG1VnQMD7Vd7rG",
@@ -170,7 +170,7 @@
       {
         "id":"15",
         "Email Address": "HANMANT DATTATRAYA KONALE",
-        "Name": "Hanmant Dattatraya Konale ",
+        "Name": "Hanmant  Konale ",
         " Email Id": "2019bme003@sggs.ac.in",
         "LinkedIn": "https://www.linkedin.com/in/hanmant-konale-72129420b",
         "Recent Photograph": "https://drive.google.com/open?id=1yFRmFV-PLSHgtgMGm920K4AJT8I5FPLz",
@@ -182,7 +182,7 @@
       {
         "id":"16",
         "Email Address": "RAMANSHU SANJAY GAWANDE",
-        "Name": "Ramanshu Sanjay Gawande",
+        "Name": "Ramanshu Gawande",
         " Email Id": "2019bec057@sggs.ac.in",
         "LinkedIn": "https://www.linkedin.com/in/ramanshu-gawande-74b452191",
         "Recent Photograph": "https://drive.google.com/open?id=1O03CnZPAVUMn1tmDYQ-7TYh4noOBXbrY",

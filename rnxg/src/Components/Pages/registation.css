@@ -51,7 +51,7 @@ z-index: 1;
 color: #fff;
 display: flex;
 justify-content: flex-end;
-height: 90vh;
+height: 15vh;
 flex-direction: column;
 align-items: center;
 font-family: myFirstFont;
@@ -77,9 +77,9 @@ width: 35%;
     z-index: 1;
     height: 40vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 500px;
 }
 
 .register-now button{
@@ -87,19 +87,24 @@ width: 200px;
 height: 50px;
 border-radius: 5px;
 font-size: 22px;
-font-weight: 500;
+font-family: myFirstFont;
+font-weight: 100;
+cursor: pointer;
+color: #fff  !important;
+border: none;
+background: linear-gradient(90deg ,#CF0211,#680204);
 }
 @media screen and (max-width: 480px) {
     .intera{
-       margin-left: 40px;
-        width: 85%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
 font-size: 15px;
     }
     .regtop {
-        height: 30vh;
+        height: 15vh;
         display: flex;
         justify-content: center;
         z-index: 1;
@@ -112,7 +117,7 @@ width: 75%;
             width: 75%;
         }
         .info-reg{
-            height: 30vh;
+            height: 320px;
         }
         .regtop h2{
             font-size: 30px;
@@ -120,7 +125,13 @@ width: 75%;
         .registations{
             height: 235vh;
         }
-        .register-now{
-            height: 20vh;
+    
+        .register-now {
+            height: 130px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 200px;
         }
 }

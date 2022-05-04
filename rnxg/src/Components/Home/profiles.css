@@ -78,13 +78,13 @@ margin: 60px 432px 0px 0;
   margin: 0;
   color: white;
   font-size: 12px;
-  text-decoration: none;
+  text-decoration: none !important;
 
   }.personal-info h4{
   margin: 0;
   color: white;
   font-size: 15px;
-  text-decoration: none;
+  text-decoration: none !important;
 
   }
 .our-mission{

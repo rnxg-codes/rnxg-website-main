@@ -4,6 +4,7 @@ import Video from './liq.mp4'
 import Footer from './Footer';
 import Mainbox from './Main-box';
 import { Link, animateScroll as scroll } from "react-scroll";
+import Popup from '../Pages/Popup';
 
 export default function Topbox() {
   return <>
@@ -46,7 +47,7 @@ export default function Topbox() {
 </div>
   </div>
   <div className="t-right">
-
+<Popup/>
   </div>
 </div>
 

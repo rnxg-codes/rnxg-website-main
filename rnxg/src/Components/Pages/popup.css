@@ -1,0 +1,117 @@
+.popup{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    height: 290px;
+    right: -350px;
+    bottom: 20px;
+    /* visibility: hidden; */
+    transition: 0.3s;
+}
+.popup-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}.popup-img button{
+   width: 100px;
+   height: 35px;
+   align-self: center;
+   border-radius: 7px;
+   border: none;
+   font-size: 17px;
+   font-weight: 500;
+   background: linear-gradient(90deg ,#CF0211,#680204);
+color: #fff;
+transition: 0.3s ease-out;
+cursor: pointer;
+}
+.popup-img button:hover{
+transform: scale(1.09);
+transition: 0.3s ease-in;
+}
+.buttons-pop{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-self: center;
+}
+.popup-img img{
+    width: 300px;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 10px;
+}
+.popup-head{
+    align-self: center;
+margin-top: 10px;
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    color: #000;
+}
+.popup-head p{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 10px 0 15px 0;
+    width: 100%;
+}.popup-head h3{
+    font-size: 20px;
+font-weight: 100;
+font-family: myFirstFont;
+margin: 0;
+}.popup-head span{
+    background: linear-gradient(90deg ,#CF0211,#680204);
+padding: 1.5px 4.5px 1.5px 4.5px;
+border-radius: 3px;
+color: #fff;
+}
+
+/* @media screen and (max-width: 645px) {
+    .popup{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        height: 290px;
+      margin: 0% 20% 25% 0;
+    }
+
+} */
+/* @media screen and (max-width: 480px) {
+    .popup{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        height: 290px;
+      margin: 0% 5% 55% 0;
+    } */
+
+/* } */
+
+
+/* 
+@media screen and (max-width: 390px) {
+    .popup{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        height: 290px;
+      margin: 0% 3% 27% 0;
+    }
+
+} */

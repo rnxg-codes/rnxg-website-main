@@ -1,7 +1,7 @@
 
 
 .mask {
-    height: 16vh;
+    height: 100px;
     position: relative;
     overflow: hidden;
     width: 75vw;
@@ -137,6 +137,9 @@ visibility: hidden;
 height: 110%;}
     .t-right{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 .t-main-title{
     height: 50%;

@@ -130,17 +130,7 @@ export default function Navbar() {
     duration={500}
 >  <a href="/projects">Projects</a>  </Link>
      </li>
-    <li className="item">
-    <Link
-    activeClass="active"
-    to={{pathname:"/profiles"}}
-   
-    spy={true}
-    smooth={true}
-    offset={-70}
-    duration={500}
-> <a href="">About</a> </Link>
-    </li>
+
     <li className="item">
     <Link
     activeClass="active"
@@ -152,7 +142,28 @@ export default function Navbar() {
     duration={500}
 > <a href="">Events</a> </Link>
     </li>
+       <li className="item">
+    <Link
+    activeClass="active"
+    to={{pathname:"/profiles"}}
    
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">About</a> </Link>
+    </li>   
+     <li className="item">
+    <Link
+    activeClass="active"
+    to={{pathname:"/registations"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+> <a href="">Register</a> </Link>
+    </li>
 
   
   </ul>

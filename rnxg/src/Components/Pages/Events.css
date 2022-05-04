@@ -87,7 +87,7 @@ cursor: pointer;
     align-items: center;
 }
 .Events-bet-top p{
-  width: 900px;
+  width: 750px;
   font-size: 20px;
   margin: -7px 0 0 0;
   color: #8193b2;
@@ -161,11 +161,22 @@ font-weight: 500;
     font-weight: 500;
 }
 .time-share button {
-    width: 40px;
+    width: 100px;
     height: 40px;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 500;
     border: none;
-    border-radius: 100%;
-    background-color: #1b1b1b;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #414141;
+    transition: 0.3s ease-out;
+
+
+}.time-share button:hover{
+transform: scale(1.09);
+transition: 0.3s ease-in;
+    background-color: #d8a53e;
 }
 .info{
     background-color: #24201E;
@@ -308,10 +319,10 @@ align-items: center;
 }
 @media screen and (max-width: 480px) {
     .Events-top-rig h1 {
-        width: 355px;
+        width: 340px;
     }  
       .Events-top-rig p {
-        width: 355px;
+        width: 340px;
     }
     .Events-bet-top p{
         width: 360px;
@@ -324,15 +335,20 @@ align-items: center;
 cursor: pointer;
     }
     .event-bot-top{
-
+      
+width: 100%;
       height: 15vh;
+    }  
+      .event-bot-top h1{
+width: 80%;
+      font-size: 25px;
     }
     .Events-top{
         width: 90%;
         
     }
     .Events-Bottom{
-        height: 160vh;
+        height: 1400px;
     }
     .event-card{
         margin: 80px 0px 0px 0px;
