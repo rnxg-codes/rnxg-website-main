@@ -90,6 +90,17 @@ export default function Navbar() {
     duration={500}
 >   About</Link>
     </li>
+      <li> 
+  <Link
+    activeClass="active"
+    to={{pathname:"/registations"}}
+   
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>   Rmageddon</Link>
+    </li>
            
           
           
