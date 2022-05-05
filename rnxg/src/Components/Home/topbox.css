@@ -237,10 +237,10 @@ height: 110%;}
         }
         .mask span{
             top: 100px;
-            height: 15vh;
+            height: 100px;
         }
         .mask{
-            height: 15vh;
+            height: 100px;
         }
       }   
          @media screen and (max-width: 820px) {
@@ -291,7 +291,7 @@ height: 110%;}
       @media screen and (max-width: 490px) {
    
  .mask{
-     height: 15vh;
+     height: 100px;
  }
         .mask span{
             top: 125px;
