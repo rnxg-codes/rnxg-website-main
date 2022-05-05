@@ -142,6 +142,13 @@ export const project = [
    "Team":" Jagdish Patil, Manasvi Walekar, Pagati Darekar, Shrikant Solanke, Nipun Dhandage, Chetan Patil",
    "Description": "Second year students have mentored their juniors through an online platform. They have taught about electronics software. They have given online tasks with the time limitation. All tasks have been evaluated by all expert seniors.",
    "img":"https://pmi.hu/static/uploaded/Files/Blog/board-view-in-meistertask-project-management.png"
+},
+{
+   "id":18,
+   "Project-Name": "Robotic arm for stroked patient or GFR Device",
+   "Team":" Arbaz Khan",
+   "Description": "GFR (Glove Finger Rehabilitation) Device is designed for patients suffering from strokes from arduino , by using this device patients can take daily massage treatment without frequent assistance from therapist and in the worst case if it is unable to rehabilitate then they are able to control their stroked hand by the another hand.",
+   "img":"https://ik.imagekit.io/wqweoudym/IMG_20220325_094621_rRH07joEW.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651772118508"
 }
  
 ]

@@ -236,6 +236,17 @@
                 "Position":"Core-Member"
 
 
+      },       {
+        "id":"22",
+       
+        "Name": "Yash Kholapure",
+        " Email Id": " ",
+        "LinkedIn": "https://www.linkedin.com/in/yash-kholapure-144147208/?originalSubdomain=in",
+        "Recent Photograph": "https://drive.google.com/open?id=1mkAl_vR2Mi_68QhW3tHXQZWvf4zcJoS3",
+                "image":"https://ik.imagekit.io/wqweoudym/IMG_20210121_131437_583_-_YASH_PRAMOD_KHOLAPURE_pbO80kc24.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651164969714",
+                "Position":"Core-Member"
+
+
       },
     ]
   
