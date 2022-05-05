@@ -145,7 +145,7 @@ export const project = [
 },
 {
    "id":18,
-   "Project-Name": "Robotic arm for stroked patient or GFR Device",
+   "Project-Name": "Robotic arm for stroked patient and GFR Device",
    "Team":" Arbaz Khan",
    "Description": "GFR (Glove Finger Rehabilitation) Device is designed for patients suffering from strokes from arduino , by using this device patients can take daily massage treatment without frequent assistance from therapist and in the worst case if it is unable to rehabilitate then they are able to control their stroked hand by the another hand.",
    "img":"https://ik.imagekit.io/wqweoudym/IMG_20220325_094621_rRH07joEW.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651772118508"
