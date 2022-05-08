@@ -34,7 +34,7 @@ setTimeout(()=>{
         <Route path="/projects" element={ loading ? <Loader loading={loading}/>:<Project/> } />
         <Route path="/Terms" element={ loading ? <Loader loading={loading}/>:<Terms/> } />
         <Route path="/Privicy" element={ loading ? <Loader loading={loading}/>:<Privicy/> } />
-        <Route path="/registations" element={ loading ? <Registation loading={loading}/>:<Registation/> } />
+        {/* <Route path="/registations" element={ loading ? <Registation loading={loading}/>:<Registation/> } /> */}
        
       </Routes>
      

@@ -90,7 +90,7 @@ export default function Navbar() {
     duration={500}
 >   About</Link>
     </li>
-      <li> 
+      {/* <li> 
   <Link
     activeClass="active"
     to={{pathname:"/registations"}}
@@ -100,7 +100,7 @@ export default function Navbar() {
     offset={-70}
     duration={500}
 >   Rmageddon</Link>
-    </li>
+    </li> */}
            
           
           
@@ -164,7 +164,7 @@ export default function Navbar() {
     duration={500}
 > <a href="">About</a> </Link>
     </li>   
-     <li className="item">
+     {/* <li className="item">
     <Link
     activeClass="active"
     to={{pathname:"/registations"}}
@@ -174,7 +174,7 @@ export default function Navbar() {
     offset={-70}
     duration={500}
 > <a href="">Register</a> </Link>
-    </li>
+    </li> */}
 
   
   </ul>
