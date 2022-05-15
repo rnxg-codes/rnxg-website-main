@@ -14,9 +14,10 @@ export default function Celebration () {
 
     <> 
     <div className="news" id='news'>
+ 
   <div className="news-in">
   <h4>
-  Congratulations Team RNXG for Stage-2 of Robocon 🎉 , all the best for Stage-3
+  <center>Congratulations Team RNXG for qualifying Stage-2 of Robocon, all the best for Stage-3</center>
    </h4>
    <div className="news-cancel">
      <a href={require("../Home/PDF/result-stage2.pdf")} download="stage-2 results"><button id='Know'>Know More</button></a>

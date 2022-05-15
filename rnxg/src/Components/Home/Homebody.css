@@ -6,6 +6,7 @@ display: flex;
 scroll-behavior: smooth;
 align-items: center;
 }
+
 .E1{
     background-color: transparent;
     z-index: 100;
