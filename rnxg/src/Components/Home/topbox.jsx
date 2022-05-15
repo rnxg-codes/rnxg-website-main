@@ -5,9 +5,11 @@ import Footer from './Footer';
 import Mainbox from './Main-box';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Popup from '../Pages/Popup';
+import Celebration from './celebration';
 
 export default function Topbox() {
   return <>
+  
   <div className="topbox" id='top1'>
   <div className='Topbox-wrapper'>
 <div className="topbox-content">
@@ -47,7 +49,7 @@ export default function Topbox() {
 </div>
   </div>
   <div className="t-right">
-<Popup/>
+{/* <Popup/> */}
   </div>
 </div>
 

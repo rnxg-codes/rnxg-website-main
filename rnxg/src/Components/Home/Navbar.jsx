@@ -40,8 +40,14 @@ export default function Navbar() {
   
     }
   }
+  const Cross=()=>{
+document.getElementById('navbar12').style.top='-50px';
+document.getElementById('sprinkle').style.display='none';
+
+
+  }
   return      <>
-  <div className="navbar_11">
+  <div className="navbar_11" id='navbar12'>
 
   <div className="nav-main">
         <div className="log">

@@ -5,12 +5,19 @@ import Mainbox from './Main-box';
 import Navbar from './Navbar';
 import Topbox from './topbox';
 import Events  from './Events';
+import Confetti from 'react-confetti'
+import Celebration from './celebration';
+
 //import { Link, animateScroll as scroll, Events } from "react-scroll";
 export default function HomeBody() {
   return <>
-    
+ 
 
    <div className="home-box">
+     <Celebration/>
+      <Confetti id='sprinkle'
+     style={{"width":"100%","height":"130%"}}
+    />
    <div className='E1'>
 <Navbar/>
 </div>
