@@ -14,12 +14,18 @@ import ScrollToTop from './Components/Home/ScrolltoTop';
 import Registation from './Components/Pages/Registation';
 import Celebration from './Components/Home/celebration';
 
+
 import ReactGA from 'react-ga';
 const TRACKING_ID = "UA-228810443-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 
 function App() {
+  //
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+  //
   const [loading, setLoading] = useState(false);
   useEffect(()=>{
 setLoading(true)
