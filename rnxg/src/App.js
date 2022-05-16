@@ -25,7 +25,7 @@ function App() {
   //
   const location = useLocation();
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.pageview(location.pathname + location.search);
   }, [location]);
   //
   const [loading, setLoading] = useState(false);
