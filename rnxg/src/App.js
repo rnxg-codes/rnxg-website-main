@@ -16,7 +16,7 @@ import Celebration from './Components/Home/celebration';
 
 
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-0FQD98E5HC"; // OUR_TRACKING_ID
+const TRACKING_ID = "UA-228810443-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 
