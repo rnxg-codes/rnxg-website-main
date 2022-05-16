@@ -13,6 +13,7 @@ import Loader from './Components/Pages/loader';
 import ScrollToTop from './Components/Home/ScrolltoTop';
 import Registation from './Components/Pages/Registation';
 import Celebration from './Components/Home/celebration';
+import { useLocation } from "react-router-dom";
 
 
 import ReactGA from 'react-ga';
@@ -22,9 +23,10 @@ ReactGA.initialize(TRACKING_ID);
 
 function App() {
   //
+  const location = useLocation();
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+  }, [location]);
   //
   const [loading, setLoading] = useState(false);
   useEffect(()=>{
