@@ -14,10 +14,9 @@ import ScrollToTop from './Components/Home/ScrolltoTop';
 import Registation from './Components/Pages/Registation';
 import Celebration from './Components/Home/celebration';
 import { useLocation } from "react-router-dom";
-
-
 import ReactGA from 'react-ga';
-const TRACKING_ID = "UA-228810443-1"; // OUR_TRACKING_ID
+
+const TRACKING_ID = "UA-228810443-1" ; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 

@@ -174,7 +174,7 @@
         " Email Id": "2019bme003@sggs.ac.in",
         "LinkedIn": "https://www.linkedin.com/in/hanmant-konale-72129420b",
         "Recent Photograph": "https://drive.google.com/open?id=1yFRmFV-PLSHgtgMGm920K4AJT8I5FPLz",
-                "image":"https://ik.imagekit.io/wqweoudym/Photo_-_HANMANT_DATTATRAYA_KONALE_lRkcEqjln.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651164883965",
+                "image":"https://ik.imagekit.io/wqweoudym/20220516_161052_lq9XaCOr5_0tZqv4FPM.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1654569771223",
                 "Position":"Core-Member"
 
 
