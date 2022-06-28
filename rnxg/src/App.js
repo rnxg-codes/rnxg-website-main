@@ -1,3 +1,8 @@
+
+
+
+
+
 import logo from './logo.svg';
 import './App.css';
 import {useState,useEffect} from 'react'
@@ -8,6 +13,10 @@ import Events from './Components/Pages/Events.jsx';
 import Project from './Components/Pages/Project';
 import Terms from './Components/Pages/terms';
 import Privicy from './Components/Pages/Privicy';
+
+
+
+
 
 import Loader from './Components/Pages/loader';
 import ScrollToTop from './Components/Home/ScrolltoTop';
