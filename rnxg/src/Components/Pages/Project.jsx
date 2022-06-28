@@ -93,7 +93,7 @@ const handlePassInfoShow = (data)=>{
       
   })}
         </div>
-</div>
+</div> 
      </div>
      <div className="Project-bottom">
     

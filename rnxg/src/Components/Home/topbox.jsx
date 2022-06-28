@@ -17,14 +17,14 @@ export default function Topbox() {
 <div className="t-main-title">
 <div class="box-main">
            
-           <p class="text-big">
+           <h1 class="text-big">
            Where we build&#160;
            <div class="mask">
     <span data-show>Developers</span>
     <span>Innovators</span>
     <span>Creators</span>
     <span>RNXGians</span>
-  </div></p>
+  </div></h1>
 
     
      
