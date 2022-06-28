@@ -27,7 +27,7 @@ export default function Modal({show,setShow, project,key}) {
   
              </h2> 
                                     <button onClick={()=> setShow(false)}>
-             <img id='close' src="https://ik.imagekit.io/wqweoudym/multiply--v1_2N3i7GtSw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651320815185"/>
+             <img rel="preload" id='close' src="https://ik.imagekit.io/wqweoudym/multiply--v1_2N3i7GtSw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651320815185"/>
              </button> 
            </div>
 

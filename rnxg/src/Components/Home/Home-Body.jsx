@@ -38,7 +38,7 @@ export default function HomeBody() {
 <div className="E5">
 <div className="container3">
   <a href="https://www.sggs.ac.in/">
-  <img width={120}  src="https://ik.imagekit.io/wqweoudym/sggsBlack_w3lWNe4AS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651499476996" alt="" />
+  <img rel="preload" width={120}  src="https://ik.imagekit.io/wqweoudym/sggsBlack_w3lWNe4AS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651499476996" alt="" />
 </a>
  <p>© 2022, Rnxg . All Rights Reserved.</p>
 </div>

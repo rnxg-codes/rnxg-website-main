@@ -14,14 +14,14 @@ export default function Profiles() {
       <div className="profile-top" id='top1'>
         <h1>Who are we?</h1>
         <p><center>We're a bunch of young people trying to solve as many  problems as possible for college students</center> <center> and giving them an optimum, all-in-one platform for their overall growth.</center></p>
-        <img src="https://www.bluelearn.in/assets/bitmojies.png" alt="" />
+        <img rel="preload" src="https://www.bluelearn.in/assets/bitmojies.png" alt="" />
 
       </div>
       <div className="profile-between">
         <div className="top-prof-bet">
 
         
-        <img width={200} height={200} src="https://ik.imagekit.io/wqweoudym/target_Cj10lQURn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651259877569" alt="" />
+        <img rel="preload"  width={200} height={200} src="https://ik.imagekit.io/wqweoudym/target_Cj10lQURn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651259877569" alt="" />
         <div className="our-mission">
           
           <h1>Our Mission</h1>
@@ -32,7 +32,7 @@ export default function Profiles() {
 <h1>Our Vision</h1>
 <p><center>We provide an open platform for students in the institute who wish to advance in the technological world. We integrate technology to tackle real-world challenges.</center></p>
         </div>
-                  <img width={200} height={200} src="https://ik.imagekit.io/wqweoudym/shuttle_9IUnMb4Fx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651260169056" alt="" />
+                  <img rel="preload" width={200} height={200} src="https://ik.imagekit.io/wqweoudym/shuttle_9IUnMb4Fx.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651260169056" alt="" />
 
         </div>
 
@@ -45,7 +45,7 @@ export default function Profiles() {
       <div className="profile-card" >
         <div className="linkdin">
         <div className="avatar">
-          <img src={User.image} alt="" />
+          <img rel="preload" src={User.image} alt="" />
         </div>
 <div className="personal-info">
   <h4>{User.Name}</h4>

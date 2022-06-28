@@ -74,7 +74,7 @@ const handlePassInfoShow = (data)=>{
             {project.map((project,key)=>{
       return <div className="projectss" key={project.id}   onClick={()=>handlePassInfoShow(project)} >
 <div className="project-img">
-<img src={project.img} alt="" />
+<img rel="preload" src={project.img} alt="" />
 </div>
 <div className="project-title">
 <h4><center>{project['Project-Name']}</center></h4>

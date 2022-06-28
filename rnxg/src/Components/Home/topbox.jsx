@@ -57,7 +57,7 @@ export default function Topbox() {
   <video id='video1' loop autoPlay muted >
   {/* <source src={Video} type="video/mp4"/> */}
   </video>
-    <img src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="" />
+    <img rel="preload" src="https://github.githubassets.com/images/modules/site/home/hero-glow.svg" alt="" />
 
 
 

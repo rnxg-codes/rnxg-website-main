@@ -15,7 +15,7 @@ import "./mainbox.css";
 // import image9 from "../images/99.JPG";
 // import image10 from "../images/10.jpg";
 // import Profiles from "./profiles";
-import "./main2.css";
+// import "./main2.css";
 import Slider from "./slider";
 import Cards from "./cards";
 export default function Mainbox() {
@@ -32,7 +32,7 @@ export default function Mainbox() {
    <div className="lfmd">
      <div className="video">
        <video  loop autoPlay muted id='video1' >
-<source src="https://ik.imagekit.io/wqweoudym/rnxglogo.803a96aede27aa31bf12_Ebn6ZrEkY.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1651307175453" type="video/mp4"/>
+<source  rel="preload"src="https://ik.imagekit.io/wqweoudym/rnxglogo.803a96aede27aa31bf12_Ebn6ZrEkY.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1651307175453" type="video/mp4"/>
 </video>
      </div>
 
@@ -49,9 +49,9 @@ export default function Mainbox() {
  <div className="fg">
  <h2> Our Participation</h2>
  <div className="pro">
-   <img id="lol1" src="https://ik.imagekit.io/wqweoudym/0_r5nr0xUKZkMFEV0a_nVDqA3KG1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307021694" alt="" />
-   <img  id="lol2" src="https://ik.imagekit.io/wqweoudym/robocon-logo-v2-72-ppi-01_JpRlY64de.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307038574" alt="" />
-   <img  id="lol3"src="https://ik.imagekit.io/wqweoudym/SIH_2018_logo_L2YaKxpBy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651482769977" alt="" />
+   <img rel="preload"id="lol1" src="https://ik.imagekit.io/wqweoudym/0_r5nr0xUKZkMFEV0a_nVDqA3KG1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307021694" alt="" />
+   <img rel="preload" id="lol2" src="https://ik.imagekit.io/wqweoudym/robocon-logo-v2-72-ppi-01_JpRlY64de.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307038574" alt="" />
+   <img rel="preload" id="lol3"src="https://ik.imagekit.io/wqweoudym/SIH_2018_logo_L2YaKxpBy.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651482769977" alt="" />
    {/* <img  id="lol4"src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png" alt="" /> */}
  </div>
  </div>
