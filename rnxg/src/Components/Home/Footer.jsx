@@ -10,14 +10,14 @@ export default function Footer() {
     <>
     <div className="container2">
   <div className="Rnxg">
-<h1>RNXG</h1>
+<h2>RNXG</h2>
 <p>RNXG that is Robotics for Next Generation provides the best platform to work on different problem statements and to create best solutions for them.</p>
 
 
   </div>  
    
   <div className="club">
-    <h1>Club</h1>
+    <h2>Club</h2>
     <ul>
 <li>
 <Link
@@ -60,7 +60,7 @@ export default function Footer() {
 </ul>
   </div>
   <div className="other-links">
-    <h1>Other-links</h1>
+    <h2>Other-links</h2>
     <ul>
 
     <li>
@@ -99,7 +99,7 @@ export default function Footer() {
 </ul>
   </div>
   <div className="contact-us">
-<h1>Contact Us</h1>
+<h2>Contact Us</h2>
 <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=rnxg@sggs.ac.in">rnxg@sggs.ac.in</a></p>
 <div className="icons">
   {/* <button>

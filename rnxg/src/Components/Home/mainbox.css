@@ -26,7 +26,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin: 50px 0px 30px 45px;
-}.rgmd h1{
+}.rgmd h2{
     background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -80,7 +80,7 @@ background-color: #040d21;
     height: 60vh;
     /* margin: 140px 0px 0 0; */
     
-}.fg h1{
+}.fg h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,14 +89,7 @@ background-color: #040d21;
     z-index: 10;
     margin: 0;
 }
-.fg h1::after{
-    content: "Our Participation";
-    position: absolute;
 
-    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
-    z-index: -1;
-    filter: blur(20px);
-}
 .pro{
     display: flex;
     align-items: center;
@@ -126,7 +119,7 @@ height: 15%;
     align-items: center;
     margin: -135px 0px 0 0px;
 
-}.sliderq h1{
+}.sliderq h2{
  
     font-size: 50px;
     font-weight: 400;
@@ -145,7 +138,7 @@ height: 15%;
     flex-direction: column;
     justify-content: center;
 }
-.em1  h1{
+.em1  h2{
     font-size: 30px;
     font-weight: 500;
     background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
@@ -195,7 +188,7 @@ height: 15%;
 }
 @media screen and (max-width: 768px) {
     
-.rgmd h1 {
+.rgmd h2 {
     font-size: 40px;
 }
 .rgmd p{
@@ -286,7 +279,7 @@ height: 15%;
     
 
   }
-  .rgmd h1{
+  .rgmd h2{
     display: flex;
     justify-content: center;
     width: 90%;
@@ -326,7 +319,7 @@ height: 15%;
     height: 26vh;
     /* margin: 140px 0px 0 0; */
 }
-.fg h1 {
+.fg h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -335,24 +328,3 @@ height: 15%;
 }
 
 }
-@media screen and (max-width: 385px) {
-    .svg{
-       
-        /* display: none; */
-    }
-}
-@media screen and (max-height: 1190px) {
-    .svg{
-       
-        /* height: 15vh; */
-    }
-}
-@media screen and (max-height: 1390px) {
-    .svg{
-       
-        /* height: 13vh; */
-    }
-    .fg{
-        /* height: 30vh; */
-    }
-   }

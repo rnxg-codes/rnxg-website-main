@@ -1,20 +1,20 @@
 import React from "react";
 import "./mainbox.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import video from './rnxglogo.mp4'
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import video from './rnxglogo.mp4'
 
-import image from "../images/11.jpg";
-import image1 from "../images/33.png";
-import image2 from "../images/22.JPG";
-import image3 from "../images/44.jpg";
-import image5 from "../images/55.jpg";
-import image6 from "../images/66.jpg";
-import image7 from "../images/77.jpg";
-import image8 from "../images/88.JPG";
-import image9 from "../images/99.JPG";
-import image10 from "../images/10.jpg";
-import Profiles from "./profiles";
+// import image from "../images/11.jpg";
+// import image1 from "../images/33.png";
+// import image2 from "../images/22.JPG";
+// import image3 from "../images/44.jpg";
+// import image5 from "../images/55.jpg";
+// import image6 from "../images/66.jpg";
+// import image7 from "../images/77.jpg";
+// import image8 from "../images/88.JPG";
+// import image9 from "../images/99.JPG";
+// import image10 from "../images/10.jpg";
+// import Profiles from "./profiles";
 import "./main2.css";
 import Slider from "./slider";
 import Cards from "./cards";
@@ -23,7 +23,7 @@ export default function Mainbox() {
  <>
  <div className="bg">
    <div className="rgmd">
-     <h1>Why RNXG?!</h1>
+     <h2>Why RNXG?!</h2>
 <center><p>Members of the RNXG, regardless of their fields, collaborate as a team to generate multidisciplinary technical expertise. Robotics for Next Generation, or RNXG, is the greatest platform for working on various issue statements and developing the best solutions for them. Artificial Intelligence, Machine Learning, Deep Learning, Embedded Systems, IoT, VLSI, Robotics, and other emerging technologies are explored in RNXG.</p>
 </center>
 <center><span>The results? Safer, more efficient and more predictable operations.</span>
@@ -47,7 +47,7 @@ export default function Mainbox() {
 <div className="alignment">
 
  <div className="fg">
- <h1> Our Participation</h1>
+ <h2> Our Participation</h2>
  <div className="pro">
    <img id="lol1" src="https://ik.imagekit.io/wqweoudym/0_r5nr0xUKZkMFEV0a_nVDqA3KG1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307021694" alt="" />
    <img  id="lol2" src="https://ik.imagekit.io/wqweoudym/robocon-logo-v2-72-ppi-01_JpRlY64de.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651307038574" alt="" />
@@ -61,7 +61,7 @@ export default function Mainbox() {
  </div> */}
  <div className="about" >
    <div className="em1"id="about-card">
-        <h1 >Why our members love us</h1>
+        <h2 >Why our members love us</h2>
    <p>See more on our Wall of love </p>
    </div>
 
@@ -81,7 +81,7 @@ export default function Mainbox() {
   );
 }
 // <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>;
+{/* <script src="https://unpkg.com/aos@next/dist/aos.js"></script>;
 AOS.init({
   duration: 1000,
-});
+}); */}
