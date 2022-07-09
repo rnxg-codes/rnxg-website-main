@@ -2,7 +2,7 @@ export const alum = [
     {
         "_id":"1",
         "Name":"Prasanna Tungar",
-        "image":"https://media-exp1.licdn.com/dms/image/C5603AQG-JXp-00dceg/profile-displayphoto-shrink_800_800/0/1636437851103?e=1657152000&v=beta&t=fiOkMm6WT_VRWLcOrQq0Lj9pTB0mWRKOzyCls_JlKbg",
+        "image":"https://ik.imagekit.io/wqweoudym/1636437851103_Jd4NzchK_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1657360901877",
         "Review":"RNXG is a club where you will get to practically apply your knowledge. You will get the opportunity to explore yourself and to achieve your goals. You will make friends for life who  are like-minded as you ie growth oriented. "
     },  
       {
