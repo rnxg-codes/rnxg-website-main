@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Footer from '../Home/Footer'
 import Navbar from '../Home/Navbar'
 import './Project.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+import {  Link,animateScroll as scroll } from "react-scroll";
 
 
 import { project } from '../Home/info (1)'
@@ -39,7 +39,9 @@ const handlePassInfoShow = (data)=>{
   console.log(data);
   setShow(true)
 
- 
+  document.querySelector('body').style.overflow="hidden"
+  
+
 
 }
   return (
@@ -71,8 +73,9 @@ const handlePassInfoShow = (data)=>{
 </div>
 <div className="pro-bet-down">
             <div className="project-card">
-            {project.map((project,key)=>{
-      return <div className="projectss" key={project.id}   onClick={()=>handlePassInfoShow(project)} >
+         {project.map((project,key)=>{
+              
+      return    <div className="projectss" key={project.id}   onClick={()=>handlePassInfoShow(project)} >
 <div className="project-img">
 <img rel="preload" src={project.img} alt="" />
 </div>
@@ -90,16 +93,14 @@ const handlePassInfoShow = (data)=>{
 
       </div>
 
-      
-  })}
+  
+  })}  
         </div>
 </div> 
      </div>
      <div className="Project-bottom">
-    
-     <Modal key={project.id} project={proj} show={show} setShow={setShow} 
 
-/>
+     <Modal key={project.id} project={proj} show={show} setShow={setShow} />
 
 
      </div>

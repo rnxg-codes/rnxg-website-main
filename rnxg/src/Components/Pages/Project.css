@@ -74,7 +74,8 @@ margin: 0;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
-    
+  
+    margin-bottom: 80px;
 }
 
 .project-title h4{
@@ -82,7 +83,7 @@ margin: 0;
 }
 .projectss{
     -webkit-tap-highlight-color: transparent;
-
+margin-left: 125px;
     width: 281px;
     height: 374px;
     display: flex;
@@ -96,7 +97,7 @@ border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
-margin: 30px 0 30px 0;
+margin: 30px 0px 0px 0;
 cursor: pointer;
 transition: 0.3s ease-in-out;
 
@@ -153,9 +154,12 @@ font-weight: 400;
         width: 370px;
     }
     .project-card{
-        width: 70%;
+        width: 100%;
     }
     .project-top-left{
         height: 100vh;
+    }
+    .project-card{
+        flex-direction: column;
     }
 }
