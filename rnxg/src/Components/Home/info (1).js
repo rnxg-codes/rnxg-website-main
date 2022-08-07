@@ -222,7 +222,7 @@
    "Pdf":"https://drive.google.com/file/d/1STJadELldgVBwORzGdGGvg8B9ceJFk0e",
    "Github":"https://github.com/Aashutosh-922/Istick-using-IOT",
    "github-visiblity":true,
-   "Description": "This project provides the best solution for the mobility difficulties of blind people",
+   "Description": "This project provides the best solution for the mobility difficulties of blind people, by which they can easily mobilize themselves, be a successful part of society, easily earn their living",
    "img":"https://ik.imagekit.io/wqweoudym/Preview_of__Bat_Cane_Helps_The_Blind_See__Biomimicry__G5GzwQnEC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659866519876",
    "controls":false
 },
