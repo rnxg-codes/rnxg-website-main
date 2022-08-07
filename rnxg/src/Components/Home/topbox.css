@@ -138,8 +138,13 @@ height: 110%;}
     .t-right{
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-self: center;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+.t-right img{
+    width: 70%;
+    border-radius: 30px;
+   
 }
 .t-main-title{
     height: 50%;

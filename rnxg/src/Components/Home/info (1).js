@@ -215,6 +215,16 @@
    "img":"https://ik.imagekit.io/wqweoudym/Screenshot__0H_66DCRh.png?updatedAt=1657823007113&tr=w-1574,h-886,fo-custom,cm-extract",
    "video":"https://ik.imagekit.io/wqweoudym/2022-07-03_23-34-27_afS7ttfD0.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1657822516986",
    "controls":true
+},{
+   "id":23,
+   "Project-Name": "Smart Blind Stick (Istick)",
+   "Team":"Aashutosh Karale,Mayur Vaidya,Kapil Kapse ",
+   "Pdf":"https://drive.google.com/file/d/1STJadELldgVBwORzGdGGvg8B9ceJFk0e",
+   "Github":"https://github.com/Aashutosh-922/Istick-using-IOT",
+   "github-visiblity":true,
+   "Description": "This project provides the best solution for the mobility difficulties of blind people",
+   "img":"https://ik.imagekit.io/wqweoudym/Preview_of__Bat_Cane_Helps_The_Blind_See__Biomimicry__G5GzwQnEC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659866519876",
+   "controls":false
 },
 ]
 export let projects = project.reverse()

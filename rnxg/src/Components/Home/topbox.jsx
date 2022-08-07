@@ -1,5 +1,6 @@
 import React from 'react';
 import './topbox.css';
+
 import Video from './liq.mp4'
 import Footer from './Footer';
 import Mainbox from './Main-box';
@@ -50,6 +51,7 @@ export default function Topbox() {
   </div>
   <div className="t-right">
 {/* <Popup/> */}
+{/* <img src="	https://ik.imagekit.io/wqweoudym/293970412_167923789061300_7458622333974671045_n_-UpjRRU0-.jfif?ik-sdk-version=javascript-1.4.3&updatedAt=1658041514300" alt="" /> */}
   </div>
 </div>
 
