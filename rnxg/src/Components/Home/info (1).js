@@ -168,7 +168,7 @@
    "Team":" Arbaz Khan",
    "Description": "GFR (Glove Finger Rehabilitation) Device is designed for patients suffering from strokes from arduino , by using this device patients can take daily massage treatment without frequent assistance from therapist and in the worst case if it is unable to rehabilitate then they are able to control their stroked hand by the another hand.",
    "img":"https://ik.imagekit.io/wqweoudym/IMG_20220325_094621_rRH07joEW.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651772118508",
-   "video":"https://dms.licdn.com/playlist/C4D05AQEzc87tsRxuOw/mp4-720p-30fp-crf28/0/1649725866114?e=1658422800&v=beta&t=1hr0UMHwWJVWfHvNn_XAlykjrMyu9d4C_IL40TpfZeA",
+   "video":"https://ik.imagekit.io/wqweoudym/WhatsApp_Video_2022-08-07_at_5.32.12_PM_L6zLnSjKs.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1659972912935",
    "controls":true
 
 },{
