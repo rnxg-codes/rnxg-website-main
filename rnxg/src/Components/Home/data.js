@@ -2,7 +2,7 @@
     export const User = [
       {
         "id":"19",
-        "Email Address": "SAKSHI NITIN KULKARNI",
+        "Email Address": "",
         "Name": "Nipun Dhandage",
         " Email Id": "2019bec098@sggs.ac.in",
         "LinkedIn": "https://www.linkedin.com/in/nipun-dhandage-335ab91a7/",
@@ -93,7 +93,28 @@
 
       },
 
+{
+  "id": "7",
+  "Email Address": "Pragati Hanumant Darekar",
+  "Name": "Pragati Hanumant Darekar",
+  " Email Id": "amitchoudhary9425@gmail.com",
+  "LinkedIn": "https://www.linkedin.com/in/pragati-darekar-29bb041a7",
+  "Recent Photograph": "https://drive.google.com/open?id=1mEMC01V-nkFsEqheK70IcPyKrVGKxIHP",
+  "image": "https://ik.imagekit.io/wqweoudym/IMG_20220730_142812_o6qawaEACB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1666031039258",
+  "Position": "Core-Member"
 
+},
+      {
+        "id": "7",
+        "Email Address": "Amit Sunil Choudhary",
+        "Name": "Atharva Patki",
+        " Email Id": "amitchoudhary9425@gmail.com",
+        "LinkedIn": "https://www.linkedin.com/in/atharva-mahendra-patki-683b3b20a/",
+        "Recent Photograph": "https://drive.google.com/open?id=1mEMC01V-nkFsEqheK70IcPyKrVGKxIHP",
+        "image": "https://ik.imagekit.io/wqweoudym/IMG_20220626_171006_7j2YXhhdQ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1666031732113",
+        "Position": "Core-Member"
+
+      },
       {
         "id":"9",
         "Email Address": "ABHISHEK  KORDE",
