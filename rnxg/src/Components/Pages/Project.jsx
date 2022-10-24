@@ -54,7 +54,7 @@ const handlePassInfoShow = (data)=>{
 <h1>The projects that actually help you grow !</h1>
 <p>We seek to keep up with current innovations at all times. At RNXG, we combine scientific and technological ideas to provide technical solutions to real-world challenges.</p>
 <Link
-    activeClass="active"
+    activeclassName="active"
     to="random2"
     spy={true}
     smooth={true}
