@@ -1,104 +1,136 @@
 <div className="list">
-  {User.map((User)=>{ return
-  <div className="containerr">
-    {/*
-    <div className="main-card">
-      */}
-      <div className="cards">
-        <div className="card">
-          <div className="linkdin">
-            <button>
-              <a href="{User.LinkedIn}"
-                ><svg
-                  stroke="currentColor"
-                  fill="#fff"
-                  stroke-width="0"
-                  viewBox="0 0 448 500"
-                  focusable="false"
-                  class="chakra-icon css-1gm3tio"
-                  aria-hidden="true"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-                  ></path></svg
-              ></a>
-            </button>
-          </div>
-          <div className="content">
-            <div className="img">
-              <img src="{User.image}" alt="" />
-            </div>
-            <div className="details">
-              <div className="name">{User.Name}</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  {User.map((User)=>{
+      return <div className="containerr">
 
-    })}
+{/* <div className="main-card"> */}
+<div className="cards">
+
+  <div className="card">
+             <div className="linkdin">
+          
+         <button > <a href= {User.LinkedIn}><svg stroke="currentColor" fill="#fff" stroke-width="0" viewBox="0 0 448 500" focusable="false" class="chakra-icon css-1gm3tio" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a></button>
+       </div>    
+   <div className="content"> 
+     <div className="img">
+
+      <img src={User.image} alt=""/>
+     </div>
+     <div className="details">
+       <div className="name">{User.Name}</div>
+
+     </div>
+
+   </div>
   </div>
-  <div className="list">
-    {User.map((User)=>{ return
-    <div className="containerr">
-      {/*
-      <div className="main-card">
-        */}
-        <div className="cards">
-          <div className="card">
-            <div className="linkdin">
-              <button>
-                <a href="{User.LinkedIn}"
-                  ><svg
-                    stroke="currentColor"
-                    fill="#fff"
-                    stroke-width="0"
-                    viewBox="0 0 448 500"
-                    focusable="false"
-                    class="chakra-icon css-1gm3tio"
-                    aria-hidden="true"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-                    ></path></svg
-                ></a>
-              </button>
-            </div>
-            <div className="content">
-              <div className="img">
-                <img src="{User.image}" alt="" />
-              </div>
-              <div className="details">
-                <div className="name">{User.Name}</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      })}
-    </div>
-
-    .list{ display: grid; grid-template-columns: auto auto auto; padding: 10px;
-    /* display: flex; justify-content: center; align-items: center; width: 100%;
-    */ } .containerr{ margin: 0 0px 60px 0px; } .cards .card .content{ width:
-    100%; display: flex; flex-direction: column; justify-content: center;
-    align-items: center; text-align: center; } .cards .card .content .img{
-    height: 100px; width: 100px; border-radius: 50%; padding: 3px; /*
-    background: #4e3c72; */ margin-bottom: 14px; } .card .content .img img{
-    height: 100%; width: 100%; border: 3px solid #ffff; border-radius: 50%;
-    object-fit: cover; } .card .content .name{ font-size: 18px; font-weight:
-    500; } .card .content .job{ font-size: 20px; color: #FF676D; } .card
-    .content .media-icons{ margin-top: 10px; display: flex; } .linkdin{
-    position: relative; display: flex; justify-content: center; top: 120px;
-    left: 5px; } .linkdin button{ width: 30px; height: 30px; border: none;
-    border-radius: 100%; background-color: #00A4BD; display: flex;
-    justify-content: center; align-items: center; }
-  </div>
 </div>
+
+</div>
+
+      
+  })}
+</div>
+<div className="list">
+  {User.map((User)=>{
+      return <div className="containerr">
+
+{/* <div className="main-card"> */}
+<div className="cards">
+
+  <div className="card">
+             <div className="linkdin">
+          
+         <button > <a href= {User.LinkedIn}><svg stroke="currentColor" fill="#fff" stroke-width="0" viewBox="0 0 448 500" focusable="false" class="chakra-icon css-1gm3tio" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a></button>
+       </div>    
+   <div className="content"> 
+     <div className="img">
+
+      <img src={User.image} alt=""/>
+     </div>
+     <div className="details">
+       <div className="name">{User.Name}</div>
+
+     </div>
+
+   </div>
+  </div>
+
+</div>
+
+</div>
+
+      
+  })}
+</div>
+
+
+
+
+.list{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; */
+}
+.containerr{
+margin: 0 0px 60px 0px;
+}
+
+
+.cards .card .content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cards .card .content .img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 3px;
+  /* background: #4e3c72; */
+  margin-bottom: 14px;
+}
+.card .content .img img{
+  height: 100%;
+  width: 100%;
+  border: 3px solid #ffff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card .content .name{
+  font-size: 18px;
+  font-weight: 500;
+}
+.card .content .job{
+  font-size: 20px;
+  color: #FF676D;
+}
+.card .content .media-icons{
+  margin-top: 10px;
+  display: flex;
+
+}
+
+.linkdin{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 120px;
+  left: 5px;
+}
+.linkdin button{
+width: 30px;
+height: 30px;
+border: none;
+border-radius: 100%;
+background-color: #00A4BD;
+display: flex;
+justify-content: center;
+align-items: center;
+}
