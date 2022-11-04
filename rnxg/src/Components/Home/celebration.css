@@ -1,72 +1,64 @@
-.news{
-    display: flex;
-    width: 100%;
-    height: 50px;
-    z-index: 1000;
-    background-color: #11CA6E;
+.news {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  z-index: 1000;
+  background-color: #11ca6e;
   align-items: center;
   justify-content: center;
+}
+.news-in {
+  display: flex;
+  width: 85%;
+  height: 50px;
+  z-index: 1;
+  justify-content: space-between;
+}
+.news h4 {
+  font-size: 18px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+}
+.news span {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -10px 0 0 0;
+}
+.news-cancel {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-cancel button {
+  cursor: pointer;
+}
+#Know {
+  height: 30px;
+  width: 90px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #fff;
+  font-family: Roboto;
+}
+#close {
+  border: none;
+  background: transparent;
+}
+@media screen and (max-width: 768px) {
+  .news h4 {
+    font-size: 10px;
   }
-  .news-in{
-    display: flex;
-    width: 85%;
-    height: 50px;
-    z-index: 1;
-    /* background-color: aqua; */
-    justify-content: space-between;
+}
+@media screen and (max-width: 450px) {
+  .news-in {
+    width: 95%;
   }
-  .news h4{
-    font-size: 18px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    color: #fff;
-  }
-  .news span{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -10px 0 0 0; 
-  }
-  .news-cancel{
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .news-cancel button{
-    cursor: pointer;
-  }
-  #Know {
-    height: 30px;
-    width: 90px;
-    border: 2px solid white;
-    border-radius: 30px;
-    background-color: transparent;
-    color: #fff;
-    font-family: Roboto;
-  
-  }
-  #close{
-    border: none;
-    background: transparent;
-  }
-  @media screen and (max-width: 768px) {
-
-
-    .news h4{
-        font-size: 10px;
-    }
-  }
-    @media screen and (max-width: 450px) {
-
-
-        .news-in {
-            
-            width: 95%;
-        ;
-        }
-  }
+}
