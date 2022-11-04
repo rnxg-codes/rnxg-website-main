@@ -3,8 +3,8 @@ import './loader.css'
 export default function Loader() {
   return (
     <>
-      <div className="center-loader">
-         <div className="ring"></div>
+      <div class="center-loader">
+         <div class="ring"></div>
       </div>
     </>
   )

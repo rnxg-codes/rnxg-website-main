@@ -26,7 +26,7 @@ document.getElementById('pop').style.display="none";
           </div>
           <div className="buttons-pop">
           {/* <Link
-    activeclassName="active"
+    activeClass="active"
     to={{pathname:"/registations"}}
    
     spy={true}
