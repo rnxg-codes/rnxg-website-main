@@ -1,90 +1,71 @@
-
-
-.co{
-    
-}
-
-
 .cardss {
-    width: 330px;
-    height: 353px;
-    border-radius: 10px;
-    display: flex;
-    
-    background: #040d21;
-    flex-direction: column;
-    align-items: center;
-    /* z-index: 1; */
-    justify-content: center;
-    /* box-shadow:  0px 22px 70px 4px  #ff5520; */
+  width: 330px;
+  height: 353px;
+  border-radius: 10px;
+  display: flex;
+
+  background: #040d21;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-/* .cardss::after{
-    content: "";
-    position: absolute;
-    height: 359px;
-    width: 330px;
-    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
-    z-index: -1;
-    filter: blur(20px);
-} */
-.cardss::before{
+
+.cardss::before {
+  content: "";
+  position: absolute;
+  height: 353px;
+  width: 330px;
+  background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
+  z-index: -2;
+  filter: blur(20px);
+}
+.cardss p {
+  width: 200px;
+  color: #b9c6dd !important;
+}
+.cardss h3 {
+  width: 200px;
+  font-weight: 100;
+  font-family: fantasy;
+}
+.cardss img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 20px 225px 0 0;
+}
+.quote span {
+  font-size: 50px;
+  position: absolute;
+  margin: -19px 0px 0 -40px;
+  color: red;
+}
+@media screen and (max-width: 1440px) {
+  .cardss {
+    width: 260px;
+    height: 353px;
+  }
+  .cardss::before {
     content: "";
     position: absolute;
     height: 353px;
-    width: 330px;
+    width: 260px;
     background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
     z-index: -2;
     filter: blur(20px);
-}
-.cardss p{
-width: 200px;
-color: #b9c6dd !important;
-}
-.cardss h3{
-width: 200px;
-font-weight: 100;
-/* color: red; */
-font-family: fantasy;
-}
-.cardss img{
+  }
+  .cardss img {
     width: 50px;
     height: 50px;
     object-fit: cover;
     border-radius: 100%;
-    margin: 20px 225px 0 0;
-}
-.quote span{
-    font-size: 50px;
+    margin: 20px 160px 0 0;
+  }
+  .quote span {
+    font-size: 30px;
     position: absolute;
-    margin: -19px 0px 0 -40px;
+    margin: -10px 0px 0 -20px;
     color: red;
-}
-@media screen and (max-width: 1440px) {
-    .cardss {
-        width: 260px;
-        height: 353px;
-        
-    }
-    .cardss::before{
-        content: "";
-        position: absolute;
-        height: 353px;
-        width: 260px;
-        background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
-        z-index: -2;
-        filter: blur(20px);
-    }
-    .cardss img{
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
-        border-radius: 100%;
-        margin: 20px 160px 0 0;
-    }
-    .quote span{
-        font-size: 30px;
-        position: absolute;
-        margin: -10px 0px 0 -20px;
-        color: red;
-    }
+  }
 }
