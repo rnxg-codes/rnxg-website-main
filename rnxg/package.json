@@ -25,6 +25,14 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharva030/Rnxg-Website-atharva.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atharva030/Rnxg-Website-atharva/issues"
+  },
+  "homepage": "https://github.com/atharva030/Rnxg-Website-atharva#readme",
   "eslintConfig": {
     "extends": [
       "react-app",
