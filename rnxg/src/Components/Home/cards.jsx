@@ -7,7 +7,7 @@ export default function Cards() {
     <>
       {alum.map((alum) => {
         return (
-          <div className="cardss">
+          <div className="cardss" key={alum}>
             <div className="prof-img">
               <img rel="preload" src={alum.image} alt="" />
             </div>
