@@ -95,7 +95,7 @@ document.getElementById('sprinkle').style.display='none';
     duration={500}
 >   About</Link>
     </li>
-      {/* <li> 
+      <li> 
   <Link
     activeClass="active"
     to={{pathname:"/registations"}}
@@ -105,7 +105,7 @@ document.getElementById('sprinkle').style.display='none';
     offset={-70}
     duration={500}
 >   Rmageddon</Link>
-    </li> */}
+    </li>
            
           
           
