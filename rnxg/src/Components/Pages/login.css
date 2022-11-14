@@ -1,4 +1,4 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Libre+Baskerville&family=Montserrat:wght@700&family=Poppins:ital@0;1&display=swap');body{
     background-color: #080710;
 }
 .background{
@@ -47,22 +47,14 @@ body{
     padding: 50px 35px;
 }
 .signup-form{
-    height: 51rem;
-    width: 30rem;
-    background-color: rgba(255,255,255,0.13);
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 57%;
-    margin: 39px 0;
-    left: 50%;
+    background-color: #141627;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 34px 35px;
+    width: 400px;
+    padding: 30px;
 }
 form *{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins';
     color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
@@ -72,7 +64,7 @@ form h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
-    text-align: center;
+    text-align: left;
 }
 
 label{
@@ -86,7 +78,7 @@ input{
     height: 50px;
     width: 100%;
     background-color: rgba(255,255,255,0.07);
-    border-radius: 3px;
+    border-radius: 7px;
     padding: 0 10px;
     margin-top: 8px;
     font-size: 14px;
@@ -97,8 +89,8 @@ input{
 }
 .login-button{
     width: 100%;
-    background-color: #ffffff;
-    color: #080710;
+    background-color: #10BB35;
+    color: #fff;
     padding: 15px 0;
     font-size: 18px;
     font-weight: 600;
@@ -138,3 +130,97 @@ input{
 .social i{
   margin-right: 4px;
 }
+
+
+.Username{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Username-right{
+display: flex;
+width: 47.5%;
+align-items: flex-start;
+}
+
+.Username-left{
+display: flex;
+    width: 47.5%;
+}
+
+.email{
+    display: flex;
+
+}
+.phone{
+    display: flex;
+}
+.password{
+    display: flex;
+}
+
+.react-tel-input .form-control {
+    position: relative;
+        letter-spacing: .01rem;
+        margin-left: 0;
+        background: #252636;
+        border: none;
+        border-radius: 5px;
+        line-height: 25px;
+        height: 35px;
+        width: 100%;
+        outline: none;
+        padding: 25px;
+        padding-left: 45px;
+        color: #fff;
+}
+
+.react-tel-input{
+    margin-top: 8px;
+}
+
+.react-tel-input .country-list {
+    outline: none;
+    z-index: 1;
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 2px 0 10px -1px;
+    box-shadow: 1px 2px 10px rgb(0 0 0 / 35%);
+    background-color: #252636;
+    width: 300px;
+    max-height: 200px;
+    overflow-y: scroll;
+    border-radius: 0 0 3px 3px;
+}
+
+.react-tel-input .flag-dropdown {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+    background-color: #080710;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+    background: #080710;
+    border-radius: 3px 0 0 0;
+}
+
+
+.react-tel-input .country-list .country:hover {
+    background-color: #393b48;
+}
+
+.react-tel-input .country-list .country.highlight {
+    background-color: #393b48;
+}
+

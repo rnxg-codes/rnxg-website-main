@@ -1,9 +1,15 @@
 import React, { useState } from "react";
-import Footer from "../Home/Footer";
-import Navbar from "../Home/Navbar";
+// import Footer from "../Home/Footer";
+// import Navbar from "../Home/Navbar";
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
+
+
 import "./login.css";
 const host = "https://registrationbackend.herokuapp.com";
 const Signup = () => {
+  
+
   const [credentials, setCredentials] = useState({
     first_name: "",
     last_name: "",
@@ -57,96 +63,100 @@ const Signup = () => {
         <div className="shape"></div>
         <div className="shape"></div>
       </div> */}
-      <Navbar/>
-      <form className="signup-form" onSubmit={handleSubmit}>
-        <h3>Register Your Account</h3>
-        <label htmlFor="name">First Name</label>
-        <input
+
+      <form className="signup-form" autocomplete="off"  onSubmit={handleSubmit}>
+        <h3>Register Member</h3>
+        {/* <label htmlFor="name">First Name</label> */}
+        <div className="Username" >
+          <div className="Username-left">
+          <input
           type="text"
           name="first_name"
           onChange={onchange}
-          placeholder="Enter Your First Name"
+          placeholder="First Name"
           maxLength={50}
           value={credentials.first_name}
           required
+          autocomplete="off"
         />
+          </div>
 
-        <label htmlFor="name">Last Name</label>
-        <input
+
+        {/* <label htmlFor="name">Last Name</label> */}
+          <div className="Username-right">
+           <input
           type="text"
           name="last_name"
           onChange={onchange}
-          placeholder="Enter Your Last Name"
+          placeholder="Last Name"
           value={credentials.last_name}
           maxLength={50}
           required
-        />
+              autocomplete="off"
+        /> 
+          </div>
 
-        <label htmlFor="email">Email address</label>
-        <input
+        </div>
+
+
+        {/* <label htmlFor="email">Email address</label> */}
+        <div className="email">
+         <input
+            autocomplete="off"
+
           type="email"
           name="email"
-          placeholder="Enter your valid Email"
+          placeholder="Email"
           onChange={onchange}
           maxLength={254}
           value={credentials.email}
           required
         />
+        </div>
 
-        <label htmlFor="name">Phone No.</label>
-        <input
-          type="text"
+
+        {/* <label htmlFor="name">Phone No.</label> */}
+         <div className="phone">
+         {/* <input
+          type="phone"
           name="phone"
           onChange={onchange}
-          placeholder="Enter Your Phone No."
+          placeholder="Phone No."
           minLength={10}
           maxLength={10}
           value={credentials.phone}
           required
-        />
+        /> */}
+          <PhoneInput
+            country={"in"}
+            value={credentials.email}
+            autocomplete="off"
+            // onChange={onchange}
+          />
+         </div>
 
-        <label htmlFor="name">Organisation Name</label>
-        <input
-          type="text"
-          name="org_name"
-          id="name"
-          onChange={onchange}
-          placeholder="Enter Organisation Name"
-          value={credentials.org_name}
-          minlength="10"
-          maxlength='50'
-          required
-        />
 
-        <label htmlFor="email">Organisation address</label>
-        <input
-          type="text"
-          name="org_address"
-          placeholder="Enter Organisation Address"
-          onChange={onchange}
-          id="email"
-          minLength={4}
-          maxLength={1000}
-          value={credentials.org_address}
-          required
-        />
 
-        <label htmlFor="password">Password</label>
-        <input
+
+        {/* <label htmlFor="password">Password</label> */}
+        <div className="password">
+          <input
           type="password"
           name="password"
-          placeholder="Enter valid Password"
+          placeholder="Set Password"
           onChange={onchange}
           minLength={16}
           id="password"
           value={credentials.password}
           required
+           autocomplete="off"
         />
+        </div>
+        
 
-        <button className="login-button">Register Account</button>
+        <button className="login-button">Register</button>
     
       </form>
-      <Footer/>
     </>
   );
 };
