@@ -18,8 +18,8 @@
      "Youredirect":"https://youtu.be/kguK-_5pCgI"
     },   
      {
-     "Event":"Robocon-2019 Journey",
-     "Year":" 2019",
+     "Event":"Robocon-2022 Journey",
+     "Year":" 2022",
         "Youtube":"https://www.youtube.com/embed/NLV5867H_ME",
         "Youredirect":"https://youtu.be/NLV5867H_ME"
     },

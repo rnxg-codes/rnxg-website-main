@@ -9,7 +9,7 @@ export default function Registation() {
       <div className="registations">
      
         <div className="registation-left">
-          <Signup />
+          {/* <Signup /> */}
         </div>
         <div className="registation-right"></div>
         
