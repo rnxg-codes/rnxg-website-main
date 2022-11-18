@@ -104,7 +104,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
->   Rmageddon</Link>
+>   Openhouse</Link>
     </li>
            
           

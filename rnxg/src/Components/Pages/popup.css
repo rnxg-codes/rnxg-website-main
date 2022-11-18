@@ -11,6 +11,7 @@
     bottom: 20px;
     /* visibility: hidden; */
     transition: 0.3s;
+    height: 500px;
 }
 .popup-img{
     display: flex;

@@ -6,18 +6,16 @@ import 'react-phone-input-2/lib/style.css'
 
 
 import "./login.css";
-const host = "https://registrationbackend.herokuapp.com";
+const host = "https://safezen.herokuapp.com";
 const Signup = () => {
   
 
   const [credentials, setCredentials] = useState({
-    first_name: "",
-    last_name: "",
+    firstname: "",
+    lastname: "",
     email: "",
     phone: "",
-    org_name: "",
-    org_address: "",
-    password: "",
+  
   });
   const onchange = (e) => {
     setCredentials({ ...credentials, [e.target.name]: e.target.value }); //this is mainly use to reflect the change in words on frontend
@@ -25,16 +23,14 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const {
-      first_name,
-      last_name,
+      firstname,
+      lastname,
       email,
       phone,
-      org_name,
-      org_address,
-      password,
+
     } = credentials;
 
-    const response = await fetch(`${host}/registration`, {
+    const response = await fetch(`${host}/subscribers`, {
       method: "POST", // *GET, POST, PUT, DELETE, etc.z
       headers: {
         "Content-Type": "application/json",
@@ -42,13 +38,11 @@ const Signup = () => {
       },
       //JSON. stringify() is used to convert Object to String
       body: JSON.stringify({
-        first_name,
-        last_name,
+        firstname,
+        lastname,
         email,
-        phone,
-        org_name,
-        org_address,
-        password,
+        phone
+
       }), // body data type must match "Content-Type" header 
       //JSON. parse() is used to convert String to Object
     });
@@ -117,7 +111,7 @@ const Signup = () => {
 
         {/* <label htmlFor="name">Phone No.</label> */}
          <div className="phone">
-         {/* <input
+         <input
           type="phone"
           name="phone"
           onChange={onchange}
@@ -126,20 +120,21 @@ const Signup = () => {
           maxLength={10}
           value={credentials.phone}
           required
-        /> */}
-          <PhoneInput
+        />
+          {/* <PhoneInput
             country={"in"}
-            value={credentials.email}
+            value={credentials.phone}
             autocomplete="off"
-            // onChange={onchange}
-          />
+          
+            onChange={onchange}
+          /> */}
          </div>
 
 
 
 
         {/* <label htmlFor="password">Password</label> */}
-        <div className="password">
+        {/* <div className="password">
           <input
           type="password"
           name="password"
@@ -151,7 +146,7 @@ const Signup = () => {
           required
            autocomplete="off"
         />
-        </div>
+        </div> */}
         
 
         <button className="login-button">Register</button>
