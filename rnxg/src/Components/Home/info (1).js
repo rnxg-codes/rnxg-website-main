@@ -165,8 +165,9 @@
 {
    "id":19,
    "Project-Name": "Robotic arm for stroked patient and GFR Device",
-   "Team":" Arbaz Khan",
+   "Team": " Arbaz Khan, Pratiksha Gunjal, Jayteerth Ralegankar, Saurav Kharat",
    "Description": "GFR (Glove Finger Rehabilitation) Device is designed for patients suffering from strokes from arduino , by using this device patients can take daily massage treatment without frequent assistance from therapist and in the worst case if it is unable to rehabilitate then they are able to control their stroked hand by the another hand.",
+   "Github":"https://github.com/khan212515/Glove-Finger-Rehabilitation",
    "img":"https://ik.imagekit.io/wqweoudym/IMG_20220325_094621_rRH07joEW.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1651772118508",
    "video":"https://ik.imagekit.io/wqweoudym/WhatsApp_Video_2022-08-07_at_5.32.12_PM_L6zLnSjKs.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1659972912935",
    "controls":true
@@ -224,6 +225,17 @@
    "github-visiblity":true,
    "Description": "This project provides the best solution for the mobility difficulties of blind people, by which they can easily mobilize themselves, be a successful part of society, easily earn their living",
    "img":"https://ik.imagekit.io/wqweoudym/Preview_of__Bat_Cane_Helps_The_Blind_See__Biomimicry__G5GzwQnEC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1659866519876",
+   "controls":false
+},{
+   "id":23,
+   "Project-Name": "Android Application RCR",
+   "Team": " Sanket Wakde , Umaan Khan,  Suchit Gourkhede, Aashutosh Karale",
+
+   "Pdf":"https://ik.imagekit.io/wqweoudym/Android_Team_Project_Report_RkBQMVHpD.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1668976860995",
+   "Github":"https://github.com/Aashutosh-922/Component_Register_RNXG-RCR-",
+   "github-visiblity":true,
+   "Description": "RNXGians have developed an application that will replace the paperwork of Registering Component and Maintaining records that will be helpful for the Database Management and will help the Team To keep track of all the things",
+   "img":"https://ik.imagekit.io/wqweoudym/Screenshot_2022-11-16-00-41-15-542_com.example.rcr30_KaZKe2_5B.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1668977277053",
    "controls":false
 },
 ]

@@ -11,9 +11,9 @@ import Celebration from './celebration';
 //import { Link, animateScroll as scroll, Events } from "react-scroll";
 export default function HomeBody() {
   return <>
-    {/* <Celebration   style={{"zIndex":"10000"}}/>
+    <Celebration   style={{"zIndex":"10000"}}/>
   
-     <Confetti id='sprinkle'
+     {/* <Confetti id='sprinkle'
      style={{"width":"100%","height":"130%","top":"50px"}}
     />  */}
   

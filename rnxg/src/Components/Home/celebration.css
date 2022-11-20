@@ -34,7 +34,7 @@
   .news-cancel{
     width: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
   }
   .news-cancel button{
