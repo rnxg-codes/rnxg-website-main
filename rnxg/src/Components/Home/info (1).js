@@ -237,6 +237,16 @@
    "Description": "RNXGians have developed an application that will replace the paperwork of Registering Component and Maintaining records that will be helpful for the Database Management and will help the Team To keep track of all the things",
    "img":"https://ik.imagekit.io/wqweoudym/Screenshot_2022-11-16-00-41-15-542_com.example.rcr30_KaZKe2_5B.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1668977277053",
    "controls":false
+},{
+   "id":23,
+   "Project-Name": "Alcohol Detection Device Using Arduino",
+   "Team": " Varad Vilasrao Patil,Sarthak Sanjiv  Khandare,Shweta Umesh Khune",
+   "github-visiblity": false,
+
+   "Pdf":"https://ik.imagekit.io/wqweoudym/Varad_50h2mnCj9.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1669014315770",
+   "Description": "In Public transport it is need to test driver’s health and mental condition that all passengers has to be safe and it will enforcement can be effective in the drink and drive cases.",
+   "img":"https://ik.imagekit.io/wqweoudym/IMG-20220328-WA0017_acQ468l-j.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1669014339963",
+   "controls":false
 },
 ]
 export let projects = project.reverse()

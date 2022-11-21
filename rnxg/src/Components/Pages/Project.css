@@ -102,12 +102,20 @@ cursor: pointer;
 transition: 0.3s ease-in-out;
 
 }
+.projectss:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+.projectss img{
+    transition: 0.3s;
+}
 .projectss img:hover{
     transform: scale(1.2);
     transition: 0.3s ease-in-out;
 }
 .project-img{
     overflow: hidden;
+    
 }
 .projectss img{
     width: 281px;
