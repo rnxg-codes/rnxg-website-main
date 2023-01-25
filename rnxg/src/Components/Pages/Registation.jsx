@@ -9,7 +9,7 @@ export default function Registation() {
       <div className="registations">
      
       
-          <object className='Registationpage' type="text/html" data="https://rmageddon.vercel.app/" width="800px" height="600px" >
+        <object className='Registationpage' type="text/html" data="https://www.rmageddon23.tech/" >
           </object>
         
  
