@@ -98,7 +98,7 @@ document.getElementById('sprinkle').style.display='none';
       <li> 
   <Link
     activeClass="active"
-    to={{pathname:"/registations"}}
+              to={{ pathname:"/registrations"}}
    
     spy={true}
     smooth={true}
@@ -172,7 +172,7 @@ document.getElementById('sprinkle').style.display='none';
      <li className="item">
     <Link
     activeClass="active"
-    to={{pathname:"/registations"}}
+              to={{ pathname:"/registrations"}}
    
     spy={true}
     smooth={true}
