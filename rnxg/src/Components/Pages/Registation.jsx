@@ -5,18 +5,19 @@ import Signup from "../Pages/Signup"
 import './registation.css'
 export default function Registation() {
   return (
-    <>   <Navbar />
+    <>   
       <div className="registations">
      
-        <div className="registation-left">
-          {/* <Signup /> */}
-        </div>
-        <div className="registation-right"></div>
+      
+          <object className='Registationpage' type="text/html" data="https://rmageddon.vercel.app/" width="800px" height="600px" >
+          </object>
+        
+ 
         
 
        
 
-      </div> <Footer />
+      </div> 
     </>
   )
 }
