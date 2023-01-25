@@ -17,7 +17,7 @@ export default function Celebration () {
  
   <div className="news-in">
   <h4>
-  <center>OpenHouse Meet NOV 21 2022, Time 6:15 pm</center>
+  <center>Rmagddon 2023 Coming Soon !!</center>
    </h4>
    <div className="news-cancel">
      {/* <a href={require("../Home/PDF/result-stage2.pdf")} download="stage-2 results"><button id='Know'>Know More</button></a> */}

@@ -169,7 +169,7 @@ document.getElementById('sprinkle').style.display='none';
     duration={500}
 > <a href="">About</a> </Link>
     </li>   
-     {/* <li className="item">
+     <li className="item">
     <Link
     activeClass="active"
     to={{pathname:"/registations"}}
@@ -179,7 +179,7 @@ document.getElementById('sprinkle').style.display='none';
     offset={-70}
     duration={500}
 > <a href="">Register</a> </Link>
-    </li> */}
+    </li>
 
   
   </ul>
