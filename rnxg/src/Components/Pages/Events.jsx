@@ -35,15 +35,15 @@ export default function Events() {
         <div className="Events-bet-down">
 <div className="event-card">
     <div className="prewiew">
-                              <img rel="preload" src="https://ik.imagekit.io/wqweoudym/Poster_v5_bCRHRCo-l.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668784248411" alt="" />
+                              <img rel="preload" src="https://ik.imagekit.io/wqweoudym/Admin_Window_cover_final2-01__1__iOqCFC1az.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675450362303" alt="" />
     </div>
     <div className="info">
-<h3>Open House 2K22 </h3>
+<h3>RMAGEDDON 2023 </h3>
     
     <div className="time-share">
 <div className="time">
 <svg viewBox="0 0 19 18"  focusable="false" class="chakra-icon css-1fbem62"><path d="M6.72656 2.17188V4.32073" stroke-width="1.07443" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12.457 2.17188V4.32073" stroke-width="1.07443" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.5 7.25H15.6768" stroke-width="1.07443" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.0377 6.82361V12.912C16.0377 15.0609 14.9632 16.4935 12.4562 16.4935H6.72596C4.21896 16.4935 3.14453 15.0609 3.14453 12.912V6.82361C3.14453 4.67476 4.21896 3.24219 6.72596 3.24219H12.4562C14.9632 3.24219 16.0377 4.67476 16.0377 6.82361Z" stroke-width="1.07443" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.58858 10.5456H9.59502"  stroke-width="1.07443" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.93624 10.5456H6.94267"  stroke-width="1.07443" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.93624 12.6941H6.94267" stroke-width="1.07443" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-<p> Monday 21, 2022</p>
+<p> 11th & 12th Feburary</p>
 
 </div>
 {/* <Link
