@@ -104,7 +104,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
->   Rmageddon</Link>
+>   RMAGEDDON 2023</Link>
     </li>
            
           
@@ -133,7 +133,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
->  <a href="">     Home</a> </Link>
+>      Home </Link>
       </li>
     <li className="item">
     <Link
@@ -144,7 +144,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
->  <a href="/projects">Projects</a>  </Link>
+>  Projects  </Link>
      </li>
 
     <li className="item">
@@ -156,7 +156,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
-> <a href="">Events</a> </Link>
+> Events </Link>
     </li>
        <li className="item">
     <Link
@@ -167,7 +167,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
-> <a href="">About</a> </Link>
+> About</Link>
     </li>   
      <li className="item">
     <Link
@@ -178,7 +178,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
-> <a href="">Register</a> </Link>
+     >RMAGEDDON 2023</Link>
     </li>
 
   
