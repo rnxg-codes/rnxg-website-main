@@ -138,9 +138,9 @@
 
             "Name": "Sagar More ",
         " Email Id": " ",
-            "LinkedIn": "https://www.linkedin.com/in/sagar-more-7abb50227",
+            "LinkedIn": "https://www.linkedin.com/in/sagar-more-9a3864210/",
         "Recent Photograph": "",
-            "image": "https://ik.imagekit.io/wqweoudym/team_2023/IMG_20220702_215536_-_Sagar_More_prWiHJMN3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1668973666441",
+            "image": "https://ik.imagekit.io/wqweoudym/team_2023/IMG_20220330_183826_VGOUKAS4D.jpg?updatedAt=1678802042509",
         "Position": "Core-Member"
 
 

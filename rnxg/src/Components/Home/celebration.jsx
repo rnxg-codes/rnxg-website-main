@@ -17,10 +17,10 @@ export default function Celebration () {
  
   <div className="news-in">
   <h4>
-  <center>Rmageddon 2023 on 11th & 12th Feb !!</center>
+  <center>RNXG shortlisted for DD Robocon 2023 Stage-02 </center>
    </h4>
    <div className="news-cancel">
-     {/* <a href={require("../Home/PDF/result-stage2.pdf")} download="stage-2 results"><button id='Know'>Know More</button></a> */}
+            <a href={require("../Home/PDF/Result of Stage 1 - DD-Robocon 2023.pdf")} download="Result of Stage 01"><button id='Know'>Know More</button></a>
 
      <button id='close' onClick={Cross}>
      <svg viewBox="0 0 24 24" width="24" height="24" class=""><path fill="#fff" d="m19.8 5.8-1.6-1.6-6.2 6.2-6.2-6.2-1.6 1.6 6.2 6.2-6.2 6.2 1.6 1.6 6.2-6.2 6.2 6.2 1.6-1.6-6.2-6.2 6.2-6.2z"></path></svg>

@@ -96,7 +96,7 @@ document.getElementById('sprinkle').style.display='none';
 >   About</Link>
     </li>
       <li> 
-  <Link
+  {/* <Link
     activeClass="active"
               to={{ pathname:"/registrations"}}
    
@@ -104,7 +104,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
->   RMAGEDDON 2023</Link>
+>   RMAGEDDON 2023</Link> */}
     </li>
            
           
@@ -170,7 +170,7 @@ document.getElementById('sprinkle').style.display='none';
 > About</Link>
     </li>   
      <li className="item">
-    <Link
+    {/* <Link
     activeClass="active"
               to={{ pathname:"/registrations"}}
    
@@ -178,7 +178,7 @@ document.getElementById('sprinkle').style.display='none';
     smooth={true}
     offset={-70}
     duration={500}
-     >RMAGEDDON 2023</Link>
+     >RMAGEDDON 2023</Link> */}
     </li>
 
   
