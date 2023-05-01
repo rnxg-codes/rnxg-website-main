@@ -12,7 +12,7 @@ export default function Celebration () {
 
     <> 
     <div className="news" id='news'>
- <Confetti/>
+
   <div className="news-in">
   <h4>
   <center>RNXG shortlisted for DD Robocon 2023 Stage-03 </center>
@@ -26,6 +26,8 @@ export default function Celebration () {
    </div>
    </div>
 </div>
-     </>
+<Confetti
+      height={1300}/>
+</>
   )
 }
