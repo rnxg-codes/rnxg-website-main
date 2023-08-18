@@ -1,86 +1,87 @@
-.home-box{
-    width: 100%;
- 
-display: flex; 
- flex-direction: column;
-scroll-behavior: smooth;
-align-items: center;
+.home-box {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  align-items: center;
 }
 
-.E1{
-    background-color: transparent;
-    z-index: 100;
-    position: absolute;
-    width: 100%;
-   
+.E1 {
+  background-color: transparent;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
 }
-.E3{
-    width: 100%;
-    color: #fff;
-    /* background-color: #040d21; */
-    background-color: #051437;
-    margin: -5px 0 0 0;
-    /* margin: 150px 0 0 0; */
+.E3 {
+  width: 100%;
+  color: #fff;
+  /* background-color: #040d21; */
+  background-color: #051437;
+  margin: -5px 0 0 0;
+  /* margin: 150px 0 0 0; */
 }
-.E4{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #141414;
-    /* height: 60vh; */
-    align-items: center;
-    
+.E4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #141414;
+  /* height: 60vh; */
+  align-items: center;
 }
-.E5{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #141414;
-    height: 20vh;
+.E5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #141414;
+  height: 20vh;
 }
-.container3{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #141414;
+.E6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #051437;
+  height: 20vh;
+}
+.container3 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #141414;
 }
 @media screen and (max-width: 1024px) {
- 
 }
 @media screen and (max-width: 768px) {
-.E4{
+  .E4 {
     height: 150vh;
     align-items: flex-start;
-}
-
-
-
+  }
 }
 @media screen and (max-width: 480px) {
-
-    .E3{
-        /* margin: -50px 0 0 0; */
-        width: 100%;
-    }
-.E4{
+  .E3 {
+    /* margin: -50px 0 0 0; */
+    width: 100%;
+  }
+  .E4 {
     height: 108vh;
     justify-content: center;
     align-items: flex-start;
-}
-.container3 span{
+  }
+  .container3 span {
     display: none;
-}
   }
-  @media screen and (max-width: 380px) {
-
-    .container3 span{
-        display: none;
-    }
-.E4{
+  .E6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .container3 span {
+    display: none;
+  }
+  .E4 {
     height: 140vh;
-
-}
   }
+}

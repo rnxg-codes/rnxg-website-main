@@ -1,7 +1,12 @@
-.Table{
-    display: flex;
-    flex-direction: column;
+.Table {
+  display: flex;
+  flex-direction: column;
 }
-.Main-Term{
-    padding: 15px;
+.Main-Term {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #f8f9fa;
+  box-shadow: -2px 3px rgba(7, 64, 105, 0.2);
 }
