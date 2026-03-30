@@ -30,4 +30,4 @@ export default function Celebration () {
       height={1300}/>
 </>
   )
-}
+}     
